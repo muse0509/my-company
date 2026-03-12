@@ -1,0 +1,38 @@
+name: Axis Traction Sync
+
+on:
+  schedule:
+    # 毎時実行
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-traction:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Fetch latest traction from Cloudflare
+        env:
+          AXIS_STATS_API: ${{ secrets.AXIS_STATS_API }}
+        run: |
+          echo "Fetching traction data..."
+          curl -s "$AXIS_STATS_API" > .company/marketing/data/current-traction.json
+          
+          # 前回との差分を計算
+          if [ -f .company/marketing/data/traction-history.json ]; then
+            node .company/marketing/scripts/calculate-growth.js
+          fi
+          
+          # 履歴に追加
+          cat .company/marketing/data/current-traction.json >> .company/marketing/data/traction-history.jsonl
+      
+      - name: Commit traction data
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .company/marketing/data/
+          git commit -m "📊 Traction sync: $(date)" || echo "No changes"
+          git push
