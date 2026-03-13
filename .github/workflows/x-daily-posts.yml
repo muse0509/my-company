@@ -38,11 +38,6 @@ jobs:
           fi
           cat .company/marketing/data/current-traction.json
       
-      - name: Analyze past tweets
-        run: |
-          # 過去632件の投稿から高エンゲージメントパターンを抽出
-          node .company/marketing/scripts/analyze-patterns.js
-      
       - name: Generate daily posts
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
