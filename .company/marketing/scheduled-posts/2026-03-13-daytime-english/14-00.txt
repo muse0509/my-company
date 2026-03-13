@@ -1,0 +1,7 @@
+Narrative ETFs on-chain data structure is fascinating.
+
+Each ETF has its own State account, directly linked to prediction market positions. Not seeing this design in other protocols.
+
+High composability means external protocols can easily reference it.
+
+These tiny design choices matter later.
