@@ -28,8 +28,14 @@ jobs:
         env:
           AXIS_STATS_API: ${{ secrets.AXIS_STATS_API }}
         run: |
-          # Cloudflare Workers APIからトラクション取得
-          curl -s "$AXIS_STATS_API" > .company/marketing/data/current-traction.json
+          # Cloudflare Workers APIからトラクション取得（設定されている場合）
+          if [ -n "$AXIS_STATS_API" ]; then
+            echo "Fetching from Cloudflare Workers..."
+            curl -s "$AXIS_STATS_API" > .company/marketing/data/current-traction.json
+          else
+            echo "Using mock traction data (AXIS_STATS_API not set)"
+            echo '{"users": 127, "etfs": 8, "environment": "devnet", "updated_at": "'$(date -u +%Y-%m-%dT%H:%M:%SZ)'"}' > .company/marketing/data/current-traction.json
+          fi
           cat .company/marketing/data/current-traction.json
       
       - name: Analyze past tweets
