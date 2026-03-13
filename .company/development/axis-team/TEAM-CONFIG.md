@@ -140,9 +140,15 @@ Muse: レビュー＆マージ
    - `kagemusha-program/` は触らない
    - スマートコントラクト変更禁止
 
-3. **git push前に確認**
+3. **❌ mainブランチに直接commit禁止**
+   - 必ずブランチを作成（例: `feat/engineer-b-user-profile`）
+   - PR作成 → Muse承認 → マージ
+   - 詳細: `GIT-WORKFLOW.md` 参照
+
+4. **git push前に確認**
    - 変更ファイルが `axis-agent/` のみか確認
    - 他のディレクトリが含まれていたらAbort
+   - ブランチが正しいか確認（mainでないこと）
 
 ### コミットルール
 - Conventional Commits形式
