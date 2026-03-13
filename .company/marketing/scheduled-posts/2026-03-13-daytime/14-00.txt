@@ -1,0 +1,7 @@
+Narrative ETFsのオンチェーンデータ構造、めちゃくちゃ面白い。
+
+各ETFが独立したState accountを持ってて、Prediction marketのpositionと直接リンクしてる。これ、他のプロトコルではあまり見ない設計。
+
+composabilityが高いから、外部プロトコルからも参照しやすい。
+
+こういう細かい設計が、後で効いてくる。
