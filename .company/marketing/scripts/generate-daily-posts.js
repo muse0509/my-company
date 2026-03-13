@@ -15,15 +15,23 @@ async function generateDailyPosts() {
   const tractionPath = path.join(__dirname, '../data/current-traction.json');
   const traction = JSON.parse(fs.readFileSync(tractionPath, 'utf8'));
 
-  // 過去の投稿データ読み込み
-  const pastTweetsPath = path.join(__dirname, '../past-tweets/muse-x-history.json');
-  const pastTweets = JSON.parse(fs.readFileSync(pastTweetsPath, 'utf8'));
-
-  // 高エンゲージメント投稿（Top 20）
-  const top20 = pastTweets
-    .sort((a, b) => b.engagement - a.engagement)
-    .slice(0, 20)
-    .map(t => ({ text: t.text, engagement: t.engagement }));
+  // 高エンゲージメントパターン分析データ読み込み
+  const patternsPath = path.join(__dirname, '../data/high-engagement-patterns.json');
+  
+  // パターンデータが存在しない場合は生成
+  if (!fs.existsSync(patternsPath)) {
+    console.log('⚠️  Pattern analysis not found, generating...');
+    const { analyzePatterns } = require('./analyze-patterns.js');
+    analyzePatterns();
+  }
+  
+  const patterns = JSON.parse(fs.readFileSync(patternsPath, 'utf8'));
+  const top20 = patterns.topTweets.map(t => ({ 
+    text: t.text, 
+    engagement: t.engagement,
+    length: t.length,
+    has_media: t.has_media
+  }));
 
   // Claude APIで投稿生成
   const message = await anthropic.messages.create({
