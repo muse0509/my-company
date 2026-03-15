@@ -1,0 +1,71 @@
+================================================================================
+財務統合レポート - Consolidated Financial Summary
+================================================================================
+,,M0,M3,M6,M12,M13,M15,M27
+
+========== SHEET 1: BALANCE SHEET - 貸借対照表 ==========
+資産（Assets）
+流動資産,Current Assets,505000,375000,525000,800000,4825000,4280000,3155000
+非流動資産,Non-Current Assets,0,52500,115000,235000,352500,410000,660000
+資産合計,TOTAL ASSETS,505000,427500,640000,1035000,5177500,4690000,3815000
+負債（Liabilities）
+流動負債,Current Liabilities,15000,27000,40000,75000,140000,175000,320000
+非流動負債,Non-Current Liabilities,0,0,0,0,0,0,0
+負債合計,TOTAL LIABILITIES,15000,27000,40000,75000,140000,175000,320000
+純資産（Equity）
+普通株式,Common Stock,500000,500000,500000,500000,500000,500000,500000
+未実現損益,Retained Earnings / Accumulated Deficit,-10000,-99500,-100000,-540000,4537500,4015000,2995000
+純資産合計,TOTAL EQUITY,490000,400500,400000,960000,5037500,4515000,3495000
+
+========== SHEET 2: INCOME STATEMENT - 損益計算書 ==========
+売上高,Revenue,0,0,15000,85000,130000,250000,1200000
+売上原価,Cost of Revenue,0,0,5050,25450,40600,73500,314000
+売上総利益,Gross Profit,0,0,9950,59550,89400,176500,886000
+営業費用,Operating Expenses,99000,134000,159000,218000,334000,415000,740000
+EBITDA,EBITDA,−99000,−134000,−149050,−158450,−244600,−238500,146000
+減価償却,Depreciation & Amortization,0,2500,5000,10000,12500,15000,25000
+営業利益,Operating Income,−99000,−136500,−154050,−168450,−257100,−253500,121000
+支払利息,Interest Expense,0,0,0,0,0,0,0
+税前純利益,Pretax Income,−99000,−136500,−159050,−178450,−289600,−268500,96000
+純利益,Net Income,−99000,−136500,−159050,−178450,−289600,−268500,96000
+
+========== SHEET 3: CASH FLOW STATEMENT - キャッシュフロー ==========
+営業キャッシュフロー,Operating Cash Flow,−94000,−129000,−159050,−168450,−272100,−248500,51000
+投資キャッシュフロー,Investing Cash Flow,−55000,−65000,−125000,−125000,−120000,−60000,−260000
+融資キャッシュフロー,Financing Cash Flow,500000,0,0,0,4000000,0,0
+その他,Other Adjustments,49000,64000,284050,573450,2394100,−251000,−61000
+期末現金残高,Ending Cash Balance,500000,370000,520000,780000,4780000,4220000,2950000
+
+========== SHEET 4: KEY METRICS - 主要指標 ==========
+指標名,Metric,M0,M3,M6,M12,M13,M15,M27
+売上高（年率換算）,Annualized Revenue,0,0,300000,1275000,1950000,4000000,14400000
+MRR（月間経常収益）,Monthly Recurring Revenue,0,0,5000,7083,13000,25000,100000
+ARR（年間経常収益）,Annual Recurring Revenue,0,0,60000,85000,156000,300000,1200000
+月間バーン（営業）,Monthly Burn Rate,49500,64500,53017,42113,48350,58500,40667
+ランウェイ（月数）,Cash Runway (Months),10.1,5.7,9.8,18.5,98.9,72.1,72.6
+売上総利益率,Gross Margin %,N/A,N/A,66.3%,70.0%,68.8%,70.6%,73.8%
+営業効率,Opex / ARR,∞,∞,∞,2570%,214%,165%,62%
+LTV / CAC Ratio,LTV/CAC Ratio,N/A,N/A,1.5x,2.0x,2.5x,3.0x,3.5x
+現金ポジション,Cash Position,500000,370000,520000,780000,4780000,4220000,2950000
+総資産,Total Assets,505000,427500,640000,1035000,5177500,4690000,3815000
+
+========== SHEET 5: CAP TABLE & DILUTION - キャップテーブル & 希薄化 ==========
+ラウンド,Round,株主,Shareholder,発行株数,Shares,持分%,Ownership %,投資額,Investment
+Pre-seed,Pre-seed,Founder,Founder,4000000,50.0%,0,0
+Pre-seed,Pre-seed,Angel 1,Angel Investor 1,2000000,25.0%,250000,
+Pre-seed,Pre-seed,SAFT Holders,SAFT Pool,2000000,25.0%,250000,
+
+Post-Seed,Post-Seed,Founder,Founder,4000000,36.4%,0,0
+Post-Seed,Post-Seed,Angel 1,Angel Investor 1,2000000,18.2%,250000,
+Post-Seed,Post-Seed,SAFT Holders,SAFT Pool (Converted),2000000,18.2%,250000,
+Post-Seed,Post-Seed,Seed Investors,Seed Round (@$25M),3000000,27.3%,4000000,
+Post-Seed,Post-Seed,New Employee Pool,ESOP (10% diluted),0,0.0%,0,
+
+Totals,Post-Seed,ALL SHAREHOLDERS,Total Shares Outstanding,11000000,100.0%,4500000,4000000
+
+NOTES,NOTES,
+"Founder dilution from Pre-seed to Seed: 50.0% → 36.4% (-13.6pp)",Founder Dilution
+"SAFT conversion happens at Seed round (assumed at 2x liquidation preference cap)",SAFT Conversion
+"Seed valuation: $25M (fully diluted post-money with new ESOP pool)",Seed Valuation
+"Dilution calculation: New shares / (Old shares + New shares)",Dilution Formula
+"M13 = Seed funding close (assumes $4M invested for 27.3% dilution)",Seed Close Date
