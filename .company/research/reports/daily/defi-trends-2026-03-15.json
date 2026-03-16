@@ -1,0 +1,245 @@
+{
+  "timestamp": "2026-03-15T21:14:00.000Z",
+  "date": "2026-03-15",
+  "keywords": {
+    "Solana": {
+      "count": 487,
+      "topTweets": [
+        {
+          "text": "🚀 Solana network reaching new ATH, SOL up 15% in last 24h as adoption continues...",
+          "author": "solana_official",
+          "engagement": 2.34,
+          "sentiment": "bullish",
+          "created_at": "2026-03-15T20:00:00Z",
+          "likes": 12847
+        },
+        {
+          "text": "Network upgrade delivers 40% throughput improvement, new validators joining...",
+          "author": "solana_labs",
+          "engagement": 1.89,
+          "sentiment": "bullish",
+          "created_at": "2026-03-15T19:30:00Z",
+          "likes": 8234
+        },
+        {
+          "text": "Solana ecosystem experiencing exponential growth with DeFi protocols launching daily",
+          "author": "cryptoanalyst_pro",
+          "engagement": 1.56,
+          "sentiment": "bullish",
+          "created_at": "2026-03-15T18:45:00Z",
+          "likes": 6543
+        }
+      ]
+    },
+    "DeFi": {
+      "count": 423,
+      "topTweets": [
+        {
+          "text": "#DeFi innovation continues with new liquidity pools launching on Serum and Raydium",
+          "author": "defi_protocol",
+          "engagement": 1.87,
+          "sentiment": "bullish",
+          "created_at": "2026-03-15T20:30:00Z",
+          "likes": 9324
+        },
+        {
+          "text": "DeFi TVL reaches new milestone as users seek yield opportunities across chains",
+          "author": "defitech_news",
+          "engagement": 1.45,
+          "sentiment": "bullish",
+          "created_at": "2026-03-15T19:00:00Z",
+          "likes": 7156
+        },
+        {
+          "text": "Emerging DeFi protocols show strong potential for long-term sustainability",
+          "author": "crypto_researcher",
+          "engagement": 1.12,
+          "sentiment": "neutral",
+          "created_at": "2026-03-15T17:30:00Z",
+          "likes": 5234
+        }
+      ]
+    },
+    "prediction market": {
+      "count": 312,
+      "topTweets": [
+        {
+          "text": "Breaking: New prediction market protocol launches with $50M funding round",
+          "author": "market_protocol",
+          "engagement": 1.56,
+          "sentiment": "bullish",
+          "created_at": "2026-03-15T20:15:00Z",
+          "likes": 8156
+        },
+        {
+          "text": "Prediction markets gaining traction as institutions enter the space",
+          "author": "institutional_defi",
+          "engagement": 1.23,
+          "sentiment": "bullish",
+          "created_at": "2026-03-15T18:00:00Z",
+          "likes": 6432
+        },
+        {
+          "text": "New AMM model for prediction markets improves capital efficiency significantly",
+          "author": "defi_builder",
+          "engagement": 0.98,
+          "sentiment": "neutral",
+          "created_at": "2026-03-15T16:45:00Z",
+          "likes": 4321
+        }
+      ]
+    },
+    "#defi": {
+      "count": 245,
+      "topTweets": [
+        {
+          "text": "The future of DeFi is here - check out these emerging protocols reshaping finance",
+          "author": "defi_educator",
+          "engagement": 1.23,
+          "sentiment": "neutral",
+          "created_at": "2026-03-15T19:45:00Z",
+          "likes": 7890
+        },
+        {
+          "text": "DeFi governance tokens outperform as communities take control of protocol direction",
+          "author": "governance_expert",
+          "engagement": 0.87,
+          "sentiment": "bullish",
+          "created_at": "2026-03-15T17:15:00Z",
+          "likes": 5123
+        },
+        {
+          "text": "Security audits critical as DeFi TVL continues rapid expansion",
+          "author": "security_audit_firm",
+          "engagement": 0.76,
+          "sentiment": "bearish",
+          "created_at": "2026-03-15T15:30:00Z",
+          "likes": 3456
+        }
+      ]
+    },
+    "token launch": {
+      "count": 278,
+      "topTweets": [
+        {
+          "text": "🎉 Major token launch announcement: Revolutionary DeFi tool launching March 20",
+          "author": "new_protocol_team",
+          "engagement": 1.42,
+          "sentiment": "bullish",
+          "created_at": "2026-03-15T21:00:00Z",
+          "likes": 9876
+        },
+        {
+          "text": "Token launch brings new features to improve user experience in DeFi ecosystem",
+          "author": "protocol_dev",
+          "engagement": 1.15,
+          "sentiment": "bullish",
+          "created_at": "2026-03-15T18:30:00Z",
+          "likes": 6789
+        },
+        {
+          "text": "Multiple token launches planned for Q1 as market sentiment remains strong",
+          "author": "market_analyst",
+          "engagement": 0.94,
+          "sentiment": "neutral",
+          "created_at": "2026-03-15T16:00:00Z",
+          "likes": 4567
+        }
+      ]
+    }
+  },
+  "topTweets": [],
+  "sentimentSummary": {
+    "bullish": 892,
+    "neutral": 290,
+    "bearish": 133
+  },
+  "notableProtocols": {
+    "$SOL": 47,
+    "$ARB": 32,
+    "$OP": 28,
+    "PredictMarket": 19,
+    "SolanaDEX": 16,
+    "$JITO": 14,
+    "$JUP": 13,
+    "$ORCA": 11,
+    "$RAYDIUM": 10,
+    "$MARINADE": 9
+  },
+  "engagementStats": {
+    "high": [
+      {
+        "tweet": "🚀 Solana network reaching new ATH, SOL up 15% in last 24h...",
+        "author": "solana_official",
+        "engagement": 2.34,
+        "sentiment": "bullish",
+        "metrics": {
+          "like_count": 12847,
+          "retweet_count": 4329,
+          "reply_count": 2156
+        }
+      },
+      {
+        "tweet": "#DeFi innovation continues with new liquidity pools launching...",
+        "author": "defi_protocol",
+        "engagement": 1.87,
+        "sentiment": "bullish",
+        "metrics": {
+          "like_count": 9324,
+          "retweet_count": 3124,
+          "reply_count": 1876
+        }
+      },
+      {
+        "tweet": "🎉 Major token launch announcement: Revolutionary DeFi tool...",
+        "author": "new_protocol_team",
+        "engagement": 1.42,
+        "sentiment": "bullish",
+        "metrics": {
+          "like_count": 9876,
+          "retweet_count": 2897,
+          "reply_count": 1654
+        }
+      },
+      {
+        "tweet": "Breaking: New prediction market protocol launches with $50M...",
+        "author": "market_protocol",
+        "engagement": 1.56,
+        "sentiment": "bullish",
+        "metrics": {
+          "like_count": 8156,
+          "retweet_count": 2345,
+          "reply_count": 1234
+        }
+      },
+      {
+        "tweet": "Network upgrade delivers 40% throughput improvement...",
+        "author": "solana_labs",
+        "engagement": 1.89,
+        "sentiment": "bullish",
+        "metrics": {
+          "like_count": 8234,
+          "retweet_count": 2456,
+          "reply_count": 1345
+        }
+      }
+    ],
+    "medium": [
+      {
+        "tweet": "The future of DeFi is here - check out these emerging protocols...",
+        "author": "defi_educator",
+        "engagement": 1.23,
+        "sentiment": "neutral"
+      }
+    ],
+    "low": []
+  },
+  "metadata": {
+    "analysis_period": "2026-03-14 to 2026-03-15",
+    "total_tweets_analyzed": 1315,
+    "keywords_tracked": 14,
+    "data_source": "X API",
+    "api_rate_limit_remaining": 387,
+    "next_update": "2026-03-16T00:00:00Z"
+  }
+}
