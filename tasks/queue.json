@@ -1,16 +1,5 @@
 {
-  "tasks": [
-    {
-      "id": "task-002",
-      "team": "operations",
-      "priority": "high",
-      "description": "P/L 修正と法的チェック ($500K調達版)",
-      "details": "既存P/Lを修正：(1) Contingency を P/L から削除し Budget のみに移動、(2) SAFE契約費用を Legal expense から Balance Sheet に移動、(3) R&D / S&M / G&A の内訳を追加。法的に不足している項目をチェックし、修正版を .company/finance/reports/ に保存。",
-      "created_at": 1773657600000,
-      "status": "pending",
-      "assigned_to": null
-    }
-  ],
+  "tasks": [],
   "completed": [
     {
       "id": "task-001",
@@ -22,6 +11,17 @@
       "status": "completed",
       "completed_at": 1742126520000,
       "assigned_to": "fundraising-team"
+    },
+    {
+      "id": "task-002",
+      "team": "operations",
+      "priority": "high",
+      "description": "P/L 修正と法的チェック ($500K調達版)",
+      "details": "既存P/Lを修正：(1) Contingency を P/L から削除し Budget のみに移動、(2) SAFE契約費用を Legal expense から Balance Sheet に移動、(3) R&D / S&M / G&A の内訳を追加。法的に不足している項目をチェックし、修正版を .company/finance/reports/ に保存。",
+      "created_at": 1773657600000,
+      "status": "completed",
+      "completed_at": 1742130780000,
+      "assigned_to": "operations-team"
     }
   ]
 }
