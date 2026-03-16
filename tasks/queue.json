@@ -9,16 +9,6 @@
       "created_at": 1773677329000,
       "status": "pending",
       "assigned_to": null
-    },
-    {
-      "id": "task-004",
-      "team": "fundraising",
-      "priority": "high",
-      "description": "VCリスト更新・リサーチ（朝まで）",
-      "details": "Solana/Web3/DeFi 特化VCをリサーチし、VCリストを更新。投資実績、チケットサイズ、連絡先、投資方針を調査。Pantera, Multicoin, Solana Ventures, Dragonfly 等を含む。.company/fundraising/vcs/ に保存。既存リストがあれば更新、なければ新規作成。",
-      "created_at": 1773677329000,
-      "status": "pending",
-      "assigned_to": null
     }
   ],
   "completed": [
@@ -43,6 +33,17 @@
       "status": "completed",
       "completed_at": 1742130780000,
       "assigned_to": "operations-team"
+    },
+    {
+      "id": "task-004",
+      "team": "fundraising",
+      "priority": "high",
+      "description": "VCリスト更新・リサーチ（朝まで）",
+      "details": "Solana/Web3/DeFi 特化VCをリサーチし、VCリストを更新。投資実績、チケットサイズ、連絡先、投資方針を調査。Pantera, Multicoin, Solana Ventures, Dragonfly 等を含む。.company/fundraising/vcs/ に保存。既存リストがあれば更新、なければ新規作成。",
+      "created_at": 1773677329000,
+      "status": "completed",
+      "completed_at": 1742135520000,
+      "assigned_to": "fundraising-team"
     }
   ]
 }
