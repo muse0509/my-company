@@ -1,7 +1,7 @@
 # Solana/Web3/DeFi Focused VC List
 
-**Last Updated:** March 17, 2026 01:40 JST (Daily Update)
-**New VCs Added Today:** 7 (Placeholder VC, 6MV, Superteam DAO, Canonical Crypto, Hack VC, Alliance DAO, LongHash Ventures)
+**Last Updated:** March 17, 2026 01:44 JST (Daily Update)
+**New VCs Added Today:** 14 (Placeholder VC, 6MV, Superteam DAO, Canonical Crypto, Hack VC, Alliance DAO, LongHash Ventures, Maven 11, SevenX Ventures, GSR Ventures, Delphi Digital, Infinity Ventures Crypto, Zee Prime Capital, Spartan Group)
 
 ## Tier 1 VCs (Lead Investors)
 
@@ -411,6 +411,101 @@
 - **Fit Score:** 73/100
 - **Notes:** Strong in Asian markets, good for APAC expansion
 
+### 36. Maven 11
+- **Focus:** DeFi protocols, MEV, derivatives, Solana ecosystem
+- **Ticket Size:** $1M - $8M (Seed to Series A)
+- **Notable Investments:** Jito, Drift Protocol, Marinade Finance, Hubble Protocol
+- **Investment Thesis:** Solana DeFi infrastructure, yield optimization, MEV
+- **Contact:**
+  - Website: https://maven11.com
+  - Twitter: @Maven11Capital
+- **Fit Score:** 92/100
+- **Notes:** **HIGHLY RELEVANT** - Deep Solana DeFi focus, invested in Drift (prediction markets), Jito (MEV), perfect fit for Axis Protocol
+
+### 37. SevenX Ventures
+- **Focus:** Web3 infrastructure, DeFi, cross-chain protocols
+- **Ticket Size:** $500K - $5M (Seed to Series A)
+- **Notable Investments:** Solana, Manta Network, zkSync, Scroll
+- **Investment Thesis:** Scalable blockchain infrastructure, Asian market bridge
+- **Contact:**
+  - Website: https://www.7xvc.com
+  - Twitter: @7x_ventures
+- **Fit Score:** 78/100
+- **Notes:** Strong Asia presence, infrastructure focus
+
+### 38. GSR Ventures
+- **Focus:** Market making + VC, DeFi, trading infrastructure
+- **Ticket Size:** $1M - $10M (Seed to Series A)
+- **Notable Investments:** Multiple DeFi and derivatives protocols
+- **Investment Thesis:** Trading infrastructure + liquidity provision
+- **Contact:**
+  - Website: https://www.gsr.io
+  - Twitter: @gsrmarkets
+- **Fit Score:** 85/100
+- **Notes:** Can provide market-making services, strong trading desk
+
+### 39. Delphi Digital
+- **Focus:** Research-driven investing, DeFi, gaming, NFTs
+- **Ticket Size:** $500K - $5M (Seed to Series A)
+- **Notable Investments:** Axie Infinity, Cosmos, THORChain, Solana ecosystem
+- **Investment Thesis:** Deep research, thematic investing, gaming/DeFi convergence
+- **Contact:**
+  - Website: https://delphidigital.io
+  - Twitter: @Delphi_Digital
+- **Fit Score:** 83/100
+- **Notes:** Strong research team, publishes market reports, hands-on support
+
+### 40. Infinity Ventures Crypto (IVC)
+- **Focus:** Japanese market, Solana ecosystem, DeFi, gaming
+- **Ticket Size:** $500K - $3M (Seed to Series A)
+- **Notable Investments:** Solana ecosystem projects, STEPN, Japanese Web3
+- **Investment Thesis:** Japan-focused crypto adoption, regulatory navigation
+- **Contact:**
+  - Website: https://ivc.vc
+  - Twitter: @ivcryptofund
+- **Fit Score:** 89/100
+- **Notes:** **JAPAN-FOCUSED** - Perfect for Muse (Japanese founder), strong local connections, Solana ecosystem active
+
+### 41. Zee Prime Capital
+- **Focus:** Early-stage DeFi, MEV, derivatives, market microstructure
+- **Ticket Size:** $250K - $2M (Pre-seed to Seed)
+- **Notable Investments:** Aave, Synthetix, Balancer, Solana validators
+- **Investment Thesis:** DeFi primitives, market efficiency, MEV optimization
+- **Contact:**
+  - Website: https://zeeprime.capital
+  - Twitter: @zeeprimecapital
+- **Fit Score:** 86/100
+- **Notes:** Deep DeFi expertise, prediction market understanding, hands-on technical support
+
+### 42. Spartan Group
+- **Focus:** Asian institutional crypto, DeFi, infrastructure
+- **Ticket Size:** $2M - $15M (Series A to Growth)
+- **Notable Investments:** Solana, Polygon, Avalanche, multiple DeFi protocols
+- **Investment Thesis:** Asia-Pacific market access, institutional crypto adoption
+- **Contact:**
+  - Website: https://spartangroup.io
+  - Twitter: @TheSpartanGroup
+- **Fit Score:** 80/100
+- **Notes:** Large checks, strong Asian institutional connections, good for Series A
+
+---
+
+## Priority Updates (March 17, 2026)
+
+### 🔥 Immediate Outreach Targets (Fit Score 85+):
+1. **Maven 11** (92/100) - Invested in Drift (prediction markets) + Jito, perfect product fit
+2. **Infinity Ventures Crypto** (89/100) - Japan-focused, Muse's home market advantage
+3. **Colosseum** (90/100) - Solana breakout company focus, hackathon network
+4. **Big Brain Holdings** (88/100) - Solana DeFi + derivatives specialist
+5. **6MV** (87/100) - Solana consumer applications, very active community
+6. **Zee Prime Capital** (86/100) - DeFi primitives + MEV expertise
+7. **GSR Ventures** (85/100) - Market making support potential
+
+### 📝 Cold Email Queue (Next 7 Days):
+- **Day 1-2:** Maven 11, Infinity Ventures Crypto, Colosseum
+- **Day 3-4:** Big Brain Holdings, 6MV, Zee Prime Capital
+- **Day 5-7:** GSR Ventures, Delphi Digital, Reciprocal Ventures
+
 ---
 
 ## Research Sources
@@ -419,5 +514,7 @@
 - Twitter/X engagement analysis
 - Portfolio company announcements
 - Crypto fundraising databases
+- Solana ecosystem VC tracker
+- DeFi derivatives investor mapping
 
-**Next Update:** Weekly review of new investments and portfolio changes
+**Next Update:** Daily research + weekly portfolio change review
