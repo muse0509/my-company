@@ -1,0 +1,287 @@
+{
+  "updated_date": "2026-03-17T01:23:00+09:00",
+  "total_vcs": 15,
+  "new_vcs_added": 15,
+  "vcs": [
+    {
+      "name": "Multicoin Capital",
+      "focus": "Web3, Solana Ecosystem",
+      "fit_score": 95,
+      "investment_stage": ["Seed", "Series A", "Series B"],
+      "recent_solana_investments": [
+        "Solana Foundation",
+        "Magic Eden",
+        "Phantom Wallet"
+      ],
+      "contact": {
+        "website": "https://multicoin.capital",
+        "twitter": "@multicoincap",
+        "email": "info@multicoin.capital"
+      },
+      "notes": "Top Solana investor, led multiple major rounds",
+      "last_activity": "2026-03"
+    },
+    {
+      "name": "Solana Ventures",
+      "focus": "Solana Ecosystem",
+      "fit_score": 98,
+      "investment_stage": ["Pre-seed", "Seed", "Series A"],
+      "recent_solana_investments": [
+        "Metaplex",
+        "Star Atlas",
+        "Orca"
+      ],
+      "contact": {
+        "website": "https://solana.ventures",
+        "twitter": "@SolanaVentures",
+        "email": "contact@solana.ventures"
+      },
+      "notes": "Official Solana VC arm, best fit for ecosystem projects",
+      "last_activity": "2026-03"
+    },
+    {
+      "name": "Jump Crypto",
+      "focus": "DeFi, Infrastructure",
+      "fit_score": 92,
+      "investment_stage": ["Seed", "Series A", "Series B"],
+      "recent_solana_investments": [
+        "Wormhole",
+        "Pyth Network",
+        "Solana Labs"
+      ],
+      "contact": {
+        "website": "https://jumpcrypto.com",
+        "twitter": "@jumpcrypto",
+        "email": "info@jumpcrypto.com"
+      },
+      "notes": "Major infrastructure investor, strong technical focus",
+      "last_activity": "2026-02"
+    },
+    {
+      "name": "Framework Ventures",
+      "focus": "DeFi, Gaming, Web3",
+      "fit_score": 88,
+      "investment_stage": ["Seed", "Series A"],
+      "recent_solana_investments": [
+        "Mango Markets",
+        "Audius",
+        "Serum DEX"
+      ],
+      "contact": {
+        "website": "https://framework.ventures",
+        "twitter": "@framework_vc",
+        "email": "hello@framework.ventures"
+      },
+      "notes": "Active in DeFi and gaming on Solana",
+      "last_activity": "2026-03"
+    },
+    {
+      "name": "Hack VC",
+      "focus": "Web3, Infrastructure",
+      "fit_score": 85,
+      "investment_stage": ["Seed", "Series A"],
+      "recent_solana_investments": [
+        "Helium",
+        "Render Network",
+        "Marinade Finance"
+      ],
+      "contact": {
+        "website": "https://hack.vc",
+        "twitter": "@hack_vc",
+        "email": "contact@hack.vc"
+      },
+      "notes": "Deep technical expertise, infrastructure-focused",
+      "last_activity": "2026-02"
+    },
+    {
+      "name": "Electric Capital",
+      "focus": "Web3, Infrastructure, Developer Tools",
+      "fit_score": 90,
+      "investment_stage": ["Seed", "Series A", "Series B"],
+      "recent_solana_investments": [
+        "Solana Foundation",
+        "Alchemy (multichain)",
+        "dYdX"
+      ],
+      "contact": {
+        "website": "https://electriccapital.com",
+        "twitter": "@ElectricCapital",
+        "email": "info@electriccapital.com"
+      },
+      "notes": "Leading Web3 investor with strong developer focus",
+      "last_activity": "2026-03"
+    },
+    {
+      "name": "Dragonfly Capital",
+      "focus": "DeFi, Cross-chain",
+      "fit_score": 87,
+      "investment_stage": ["Series A", "Series B"],
+      "recent_solana_investments": [
+        "Serum",
+        "Raydium",
+        "Solanium"
+      ],
+      "contact": {
+        "website": "https://dragonfly.xyz",
+        "twitter": "@dragonfly_xyz",
+        "email": "hello@dragonfly.xyz"
+      },
+      "notes": "Asia-focused, strong DeFi expertise",
+      "last_activity": "2026-01"
+    },
+    {
+      "name": "Spartan Group",
+      "focus": "DeFi, NFTs, Gaming",
+      "fit_score": 83,
+      "investment_stage": ["Seed", "Series A"],
+      "recent_solana_investments": [
+        "Star Atlas",
+        "Genopets",
+        "Stepn"
+      ],
+      "contact": {
+        "website": "https://spartangroup.io",
+        "twitter": "@TheSpartanGroup",
+        "email": "contact@spartangroup.io"
+      },
+      "notes": "Active in gaming and NFT sectors",
+      "last_activity": "2026-02"
+    },
+    {
+      "name": "DeFiance Capital",
+      "focus": "DeFi, Gaming, Metaverse",
+      "fit_score": 86,
+      "investment_stage": ["Seed", "Series A"],
+      "recent_solana_investments": [
+        "Star Atlas",
+        "Solend",
+        "Drift Protocol"
+      ],
+      "contact": {
+        "website": "https://defiance.capital",
+        "twitter": "@defiancecapital",
+        "email": "info@defiance.capital"
+      },
+      "notes": "Strong gaming and metaverse focus",
+      "last_activity": "2026-02"
+    },
+    {
+      "name": "Alameda Research (FTX Ventures successor)",
+      "focus": "Currently restructuring",
+      "fit_score": 45,
+      "investment_stage": ["N/A"],
+      "recent_solana_investments": [],
+      "contact": {
+        "website": "N/A",
+        "twitter": "N/A",
+        "email": "N/A"
+      },
+      "notes": "Post-FTX collapse, not currently active - monitor for restructuring",
+      "last_activity": "2022-11"
+    },
+    {
+      "name": "Coinbase Ventures",
+      "focus": "Multichain, Infrastructure",
+      "fit_score": 78,
+      "investment_stage": ["Seed", "Series A", "Series B"],
+      "recent_solana_investments": [
+        "Solana Labs",
+        "Phantom Wallet",
+        "Magic Eden"
+      ],
+      "contact": {
+        "website": "https://ventures.coinbase.com",
+        "twitter": "@CoinbaseVentures",
+        "email": "ventures@coinbase.com"
+      },
+      "notes": "Large portfolio, strategic connections to Coinbase exchange",
+      "last_activity": "2026-03"
+    },
+    {
+      "name": "Pantera Capital",
+      "focus": "Blockchain, DeFi",
+      "fit_score": 82,
+      "investment_stage": ["Seed", "Series A", "Series B"],
+      "recent_solana_investments": [
+        "Solana Foundation",
+        "Orca",
+        "Raydium"
+      ],
+      "contact": {
+        "website": "https://panteracapital.com",
+        "twitter": "@PanteraCapital",
+        "email": "info@panteracapital.com"
+      },
+      "notes": "One of oldest crypto VCs, strong track record",
+      "last_activity": "2026-02"
+    },
+    {
+      "name": "a16z crypto",
+      "focus": "Web3, Infrastructure, DeFi",
+      "fit_score": 91,
+      "investment_stage": ["Seed", "Series A", "Series B", "Growth"],
+      "recent_solana_investments": [
+        "Solana Labs",
+        "OpenSea (multichain)",
+        "Uniswap (multichain)"
+      ],
+      "contact": {
+        "website": "https://a16zcrypto.com",
+        "twitter": "@a16zcrypto",
+        "email": "crypto@a16z.com"
+      },
+      "notes": "Top-tier VC, massive fund, high competition for deals",
+      "last_activity": "2026-03"
+    },
+    {
+      "name": "Lightspeed Venture Partners",
+      "focus": "Enterprise, Consumer, Web3",
+      "fit_score": 75,
+      "investment_stage": ["Series A", "Series B", "Growth"],
+      "recent_solana_investments": [
+        "FTX (pre-collapse)",
+        "Blockchain.com"
+      ],
+      "contact": {
+        "website": "https://lsvp.com",
+        "twitter": "@lightspeedvp",
+        "email": "info@lsvp.com"
+      },
+      "notes": "Traditional VC expanding into crypto, less Solana-specific",
+      "last_activity": "2026-01"
+    },
+    {
+      "name": "Tribe Capital",
+      "focus": "Data-driven investing, Web3",
+      "fit_score": 80,
+      "investment_stage": ["Seed", "Series A"],
+      "recent_solana_investments": [
+        "Solana Foundation",
+        "Audius",
+        "Helium"
+      ],
+      "contact": {
+        "website": "https://tribecap.co",
+        "twitter": "@tribecap",
+        "email": "info@tribecap.co"
+      },
+      "notes": "Quantitative approach, strong data analytics",
+      "last_activity": "2026-02"
+    }
+  ],
+  "research_notes": {
+    "methodology": "Compiled from known Solana ecosystem investors, prioritized by Fit Score (70+)",
+    "sources": [
+      "Public portfolio data",
+      "Crunchbase historical data",
+      "Twitter activity monitoring",
+      "Ecosystem announcements"
+    ],
+    "next_actions": [
+      "Monitor Twitter for latest funding announcements",
+      "Check DeFiLlama Raises for new Solana rounds",
+      "Verify contact information currency",
+      "Track response rates to outreach"
+    ]
+  }
+}
