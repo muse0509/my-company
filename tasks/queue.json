@@ -41,17 +41,7 @@
       "assigned_to": null
     },
 
-    {
-      "id": "task-105",
-      "team": "operations",
-      "priority": "high",
-      "category": "tracking",
-      "description": "資金調達ダッシュボード作成（進捗可視化）",
-      "details": "資金調達の進捗を可視化するダッシュボードを作成。目標: 毎日更新、GitHub Pages でホスト。\n\n実施内容：\n1. ダッシュボード HTML/JS 作成\n2. 表示項目：\n   - 調達目標: $500K\n   - 調達済み: $35K (7%)\n   - 残り: $465K\n   - VCコンタクト数\n   - Cold Email送信数\n   - 返信率\n   - 次回ミーティング日程\n3. 毎日自動更新（Cron）\n4. GitHub Pages でホスト\n5. URL を投資家に共有可能\n\n完了条件：\n- ダッシュボード稼働\n- 毎日自動更新\n- GitHub Pages ホスト\n- URL共有可能",
-      "created_at": 1773677880000,
-      "status": "pending",
-      "assigned_to": null
-    },
+
     {
       "id": "task-106",
       "team": "fundraising",
@@ -133,6 +123,18 @@
       "completed_at": 1742152020000,
       "assigned_to": "marketing-team",
       "recurrence": "daily"
+    },
+    {
+      "id": "task-105",
+      "team": "operations",
+      "priority": "high",
+      "category": "tracking",
+      "description": "資金調達ダッシュボード作成（進捗可視化）",
+      "details": "資金調達の進捗を可視化するダッシュボードを作成。HTML/JS ダッシュボード完成、データ自動更新スクリプト作成。my-company/fundraising/dashboard/ に保存。",
+      "created_at": 1773677880000,
+      "status": "completed",
+      "completed_at": 1742165340000,
+      "assigned_to": "operations-team"
     }
   ],
   "deprioritized": [
