@@ -9,6 +9,36 @@
       "created_at": 1773677329000,
       "status": "pending",
       "assigned_to": null
+    },
+    {
+      "id": "task-005",
+      "team": "developer",
+      "priority": "high",
+      "description": "全 Skills を Muse 専用にカスタマイズ＆拡張（朝まで）",
+      "details": "既存の全 Skills (.company/organization/skills/, .company/development/axis-team/skills/ 等) を Anthropic ガイドに沿ってリファクタし、Muse 専用にカスタマイズ。\n\n実施内容：\n1. 各 SKILL.md に必須セクション追加（Purpose, When to use, Prerequisites, Instructions, Examples, Common pitfalls）\n2. Muse の文脈を組み込む（スタイル: 技術的比喩・簡潔・直接的、好み: Solana/DeFi/予測市場、過去の成功例を参照）\n3. scripts/ に実行可能スクリプト追加（Node.js/Python）\n4. references/ に参照資料追加（既存ドキュメント、API仕様等）\n5. 各 Skill を「Muse のためのエージェント」として機能するよう最適化\n\n対象 Skills：\n- C-Suite: CEO, CTO, COO\n- Organization: VC Researcher, Pitch Builder, X Writer, Market Analyst, Content Creator, Community Manager 等\n- Development: Engineer A/B, PM, Designer\n\n完了条件：\n- 全 Skills が Anthropic ガイドに準拠\n- Muse のスタイル・好みが反映されている\n- scripts/ に実行可能コード（最低1つ/Skill）\n- Git commit & push",
+      "created_at": 1773677568000,
+      "status": "pending",
+      "assigned_to": null
+    },
+    {
+      "id": "task-006",
+      "team": "developer",
+      "priority": "critical",
+      "description": "Phase 1: X API 自動投稿システム構築（朝まで）",
+      "details": "X API v2 を使った完全自動投稿システムを構築。Muse アカウント (@muse_jp_sol) で自動投稿を実現。\n\n実施内容：\n1. X API v2 Bearer Token 確認・設定\n2. 投稿スクリプト作成（Node.js）\n   - API v2 POST /2/tweets エンドポイント使用\n   - エラーハンドリング（Rate limit, Auth エラー等）\n   - リトライロジック\n3. 品質フィルター実装\n   - エンゲージメントスコア 70+ のみ自動投稿\n   - スコア 60-69: 下書き保存（手動確認用）\n   - スコア <60: 破棄\n4. 投稿頻度制限\n   - 1日最大6投稿\n   - 投稿間隔: 最低2時間\n   - 深夜帯（23:00-07:00）は投稿しない\n5. ログ記録\n   - 全投稿を .company/marketing/logs/YYYY-MM-DD-posts.json に記録\n   - 成功/失敗/スキップの理由を記録\n   - Git commit\n6. Cron 統合\n   - 毎日3回実行（10:00, 15:00, 20:00 JST）\n   - タスクキューから投稿案を取得\n   - 自動投稿＆ログ記録\n\n完了条件：\n- X API で自動投稿可能\n- 品質フィルター稼働\n- 投稿ログが GitHub に記録される\n- Cron で自動実行\n\nファイル保存先：\n- .company/marketing/scripts/x-auto-post.js\n- .company/marketing/logs/\n- README.md 更新",
+      "created_at": 1773677820000,
+      "status": "pending",
+      "assigned_to": null
+    },
+    {
+      "id": "task-007",
+      "team": "operations",
+      "priority": "medium",
+      "description": "Phase 2/3 設計: Alex 完全自律化ロードマップ作成",
+      "details": "Phase 2（Alex 専用アカウント）と Phase 3（完全自律モード）の詳細設計ドキュメントを作成。\n\n実施内容：\n1. Phase 2 設計\n   - Alex 専用 X アカウント仕様\n   - アカウント名候補: @alex_axis_ai, @alex_openclaw\n   - 投稿内容: 毎日の進捗報告、GitHub コミット通知、タスク完了報告\n   - 実装タイムライン: 明日（2026-03-17 夜）\n2. Phase 3 設計\n   - 完全自律モードの定義\n   - 承認フロー: 承認不要タスク vs 承認必要タスク\n   - タスク優先度の自動判定ロジック\n   - 24/365 完全自律運用の安全性担保\n   - 実装タイムライン: 今週末（2026-03-21）\n3. リスク分析\n   - X API Rate Limit\n   - 投稿品質の維持\n   - 暴走防止（Kill Switch 設計）\n   - Muse への緊急連絡方法\n4. KPI 定義\n   - 自動投稿成功率\n   - タスク完了率\n   - GitHub コミット頻度\n   - エンゲージメント率\n\n完了条件：\n- Phase 2/3 の詳細設計書が完成\n- リスク分析完了\n- KPI 定義完了\n- 実装タイムライン明確\n\nファイル保存先：\n- .company/operations/roadmap/alex-autonomous-roadmap.md\n- .company/operations/design/phase2-alex-account.md\n- .company/operations/design/phase3-full-autonomous.md",
+      "created_at": 1773677820000,
+      "status": "pending",
+      "assigned_to": null
     }
   ],
   "completed": [
