@@ -1,4 +1,25 @@
 {
-  "tasks": [],
+  "tasks": [
+    {
+      "id": "task-001",
+      "team": "fundraising",
+      "priority": "high",
+      "description": "Use of Proceeds 作成 ($500K調達、12ヶ月runway)",
+      "details": "調達額$500K、Runway 12ヶ月での Use of Proceeds を作成。Personnel 36%, Product Dev 20%, Legal 12%, Accounting 8%, Office 10%, Marketing 4%, Contingency 10% の配分で計算し、.company/finance/reports/ に保存。",
+      "created_at": 1773657600000,
+      "status": "pending",
+      "assigned_to": null
+    },
+    {
+      "id": "task-002",
+      "team": "operations",
+      "priority": "high",
+      "description": "P/L 修正と法的チェック ($500K調達版)",
+      "details": "既存P/Lを修正：(1) Contingency を P/L から削除し Budget のみに移動、(2) SAFE契約費用を Legal expense から Balance Sheet に移動、(3) R&D / S&M / G&A の内訳を追加。法的に不足している項目をチェックし、修正版を .company/finance/reports/ に保存。",
+      "created_at": 1773657600000,
+      "status": "pending",
+      "assigned_to": null
+    }
+  ],
   "completed": []
 }
