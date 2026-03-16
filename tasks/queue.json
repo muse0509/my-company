@@ -1,5 +1,26 @@
 {
-  "tasks": [],
+  "tasks": [
+    {
+      "id": "task-003",
+      "team": "marketing",
+      "priority": "high",
+      "description": "X投稿案70個作成（朝まで）",
+      "details": "Muse (@muse_jp_sol) のスタイルで X 投稿案を70個作成。Solana/DeFi/予測市場/Web3 関連。技術的比喩あり、簡潔で直接的、約50-80文字。各投稿に推定エンゲージメントスコア付き。.company/marketing/content/ に保存。",
+      "created_at": 1773677329000,
+      "status": "pending",
+      "assigned_to": null
+    },
+    {
+      "id": "task-004",
+      "team": "fundraising",
+      "priority": "high",
+      "description": "VCリスト更新・リサーチ（朝まで）",
+      "details": "Solana/Web3/DeFi 特化VCをリサーチし、VCリストを更新。投資実績、チケットサイズ、連絡先、投資方針を調査。Pantera, Multicoin, Solana Ventures, Dragonfly 等を含む。.company/fundraising/vcs/ に保存。既存リストがあれば更新、なければ新規作成。",
+      "created_at": 1773677329000,
+      "status": "pending",
+      "assigned_to": null
+    }
+  ],
   "completed": [
     {
       "id": "task-001",
