@@ -1,85 +1,60 @@
----
-name: x-writer
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
----
+# x-writer
 
-# X Writer
+X投稿文作成（過去632件分析活用）実行スキル。
 
-## Overview
+## Description
 
-[TODO: 1-2 sentences explaining what this skill enables]
+Marketing Team実行層。X投稿文作成、トレンド反映、エンゲージメント最適化。過去632件分析データを活用し、Haiku modelで効率的に高品質投稿生成。
 
-## Structuring This Skill
+## When to Use
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+- 週次7日分投稿下書き作成
+- 特定イベント告知投稿
+- トレンド対応投稿
+- 個人的ストーリー投稿
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+## Process
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+### Step 1: コンテンツ計画確認
+- 週次カレンダー（月-日）
+- トピックミックス（Axis Pizza 30%, DeFi 30%, Community 20%, Personal 20%）
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+### Step 2: 投稿文作成
+- **長さ:** 50-100文字（最適）
+- **時間:** 15:00 JST優先
+- **トーン:** Authentic, technical but accessible
+- **禁止:** ハッシュタグ使用禁止
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+### Step 3: エンゲージメント最適化
+- 個人的ストーリー優先（85% better engagement）
+- 技術的比喩活用（"マイクラのレッドストーン"）
+- Call-to-action（AMA参加、feedback依頼）
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+### Step 4: 画像・動画提案
+- スクリーンショット（製品更新時）
+- チャート（growth metrics）
+- GIF（デモ）
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+## Output Format
 
-## [TODO: Replace with the first main section based on chosen structure]
+```
+Post 1 (Monday 15:00 JST):
+"Weekend spent shipping Drift integration. This week: Jupiter Perps + UI polish. Let's go! 🚀"
+[Image: None]
+[Engagement prediction: 12 likes, 8 RTs]
 
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
+Post 2 (Tuesday 15:00 JST):
+"How Drift Perps work: Imagine trading with 10x leverage but auto-risk management. Here's the flow..."
+[Image: Flow diagram]
+[Engagement prediction: 15 likes, 10 RTs]
+```
 
-## Resources (optional)
+## Scripts
 
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
+- `generate-post.js` - 投稿文自動生成（632件分析ベース）
+- `optimize-time.js` - 最適投稿時間提案
+- `analyze-performance.js` - 過去投稿パフォーマンス分析
 
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
+## Model
 
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
-
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
-
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
-
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
-
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
-
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
-
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
-
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
-
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
-
----
-
-**Not every skill requires all three types of resources.**
+Haiku（投稿文作成は軽量タスク、大量生成向き）

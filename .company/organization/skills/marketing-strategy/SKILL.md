@@ -1,85 +1,144 @@
----
-name: marketing-strategy
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
----
+# marketing-strategy
 
-# Marketing Strategy
+X戦略、コンテンツ戦略、ブランディング、コミュニティ成長のための戦略スキル。
 
-## Overview
+## Description
 
-[TODO: 1-2 sentences explaining what this skill enables]
+Marketing Lead向けスキル。X戦略立案、コンテンツ戦略、ブランディング、コミュニティ成長を提供。過去632件のX分析データを活用。
 
-## Structuring This Skill
+## When to Use
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+- X戦略立案・最適化
+- コンテンツカレンダー作成
+- ブランディング方針決定
+- コミュニティ成長戦略
+- エンゲージメント改善
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+## Core Frameworks
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+### 1. X Strategy Framework（データ駆動）
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+**過去632件分析結果:**
+- **平均いいね:** 10
+- **平均RT:** 7
+- **平均ツイート長:** 74文字（比較的短い）
+- **高エンゲージメント傾向:**
+  - AMAアナウンス: 48いいね、25RT
+  - 技術詳細説明: 56いいね、21RT
+  - 他プロトコルシェア: 50RT
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+**最適投稿時間:**
+- **15:00 JST:** 2x engagement vs 朝
+- **理由:** フォロワーの活動時間帯
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+**トピック戦略:**
+1. Axis Pizza開発状況（30%）
+2. DeFiプロトコル技術解説（30%）
+3. AMA/コミュニティ活動（20%）
+4. 個人的ストーリー（20%）
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+**禁止事項:**
+- ❌ ハッシュタグ使用（トップパフォーマーは0%）
+- ❌ 長文投稿（200文字以上）
+- ❌ 朝投稿（エンゲージメント低い）
 
-## [TODO: Replace with the first main section based on chosen structure]
+### 2. Content Strategy
 
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
+**個人的ストーリーテリング:**
+- Personal stories convert 85% better
+- 技術的比喩活用（例: "マイクラのレッドストーン"）
+- 失敗談・学び共有
 
-## Resources (optional)
+**コンテンツミックス:**
+- 40%: 技術解説（DeFi, Solana）
+- 30%: Axis Pizza更新
+- 20%: コミュニティ活動
+- 10%: 個人的な学び
 
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
+**形式:**
+- Text: 70%
+- Images: 20%
+- Videos: 10%
 
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
+### 3. Branding Framework
 
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
+**Musのブランド:**
+- **Who:** 20歳Solana DeFi創業者
+- **Voice:** Technical but accessible
+- **Tone:** Authentic, no perfection
+- **Differentiation:** 若手創業者の生の学び
 
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
+**ブランドメッセージ:**
+- "Simplifying DeFi for everyone"
+- "Building in public"
+- "Learning + Shipping fast"
 
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
+### 4. Community Growth Strategy
 
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
+**現状:**
+- フォロワー: 2089
+- エンゲージメント率: 0.5%（平均）
+- トップツイート: 56いいね（0.27%）
 
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
+**成長目標:**
+- 3ヶ月: 3000フォロワー（+1000）
+- 6ヶ月: 5000フォロワー（+3000）
+- エンゲージメント率: 1.0%
 
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
+**施策:**
+1. 午後投稿徹底（15:00 JST）
+2. 個人的ストーリー増加（20% → 30%）
+3. AMA定期開催（月2回）
+4. コミュニティエンゲージメント（返信、RT）
 
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
+## References
 
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
+- **x-strategy.md:** X戦略詳細（632件分析活用）
+- **content-calendar.md:** コンテンツカレンダーテンプレート
+- **community-growth.md:** コミュニティ成長戦術
 
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
+## Workflow Example
 
----
+```
+1. 週次コンテンツ計画
+   → X Post Writer (Haiku) に7日分下書き依頼
+   
+2. 投稿スケジュール
+   → 毎日15:00 JST自動投稿
+   
+3. エンゲージメント監視
+   → 高パフォーマンス投稿分析
+   
+4. 月次戦略調整
+   → データ分析、次月計画
+```
 
-**Not every skill requires all three types of resources.**
+## Communication Style
+
+**報告例:**
+- "午後投稿で平均11いいね、朝の2倍"
+- "個人的ストーリーで85%エンゲージメント増"
+- "今週のAMAアナウンス48いいね、過去最高"
+
+**原則:**
+- Authenticity First（本物であること）
+- Data-informed creativity（データ駆動の創造性）
+- Community over followers（コミュニティ優先）
+
+## Success Metrics
+
+- **フォロワー成長:** +50/week
+- **エンゲージメント率:** 1.0%
+- **午後投稿率:** 80%以上
+- **個人的ストーリー:** 30%
+- **返信率:** 50%以上
+
+## Model
+
+Sonnet（戦略判断に高品質必要）
+
+## Team
+
+- X Post Writer (Haiku)
+- Content Creator (Haiku)
+- Community Manager (Haiku)

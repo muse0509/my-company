@@ -40,18 +40,7 @@
       "status": "pending",
       "assigned_to": null
     },
-    {
-      "id": "task-104",
-      "team": "marketing",
-      "priority": "high",
-      "category": "traction-building",
-      "description": "X投稿で資金調達進捗アピール（毎日3-6投稿）",
-      "details": "X (@muse_jp_sol) で資金調達の進捗、トラクション、ビジョンをアピール。目標: 毎日3-6投稿、エンゲージメント率3%+。\n\n投稿内容：\n1. 資金調達進捗（「$35K committed, $465K to go」等）\n2. トラクション更新（SEZ Dubai, Jito, Superteam等）\n3. プロダクト開発進捗（MVP機能、技術的挑戦）\n4. DeFi/Solana 市場分析（専門性アピール）\n5. 投資家へのメッセージ（DM歓迎、資金調達中）\n\n完了条件：\n- 毎日3-6投稿\n- エンゲージメント率3%+\n- 資金調達関連投稿を週5回以上\n- Git commit",
-      "created_at": 1773677880000,
-      "status": "pending",
-      "assigned_to": null,
-      "recurrence": "daily"
-    },
+
     {
       "id": "task-105",
       "team": "operations",
@@ -131,6 +120,19 @@
       "status": "completed",
       "completed_at": 1742135520000,
       "assigned_to": "fundraising-team"
+    },
+    {
+      "id": "task-104",
+      "team": "marketing",
+      "priority": "high",
+      "category": "traction-building",
+      "description": "X投稿で資金調達進捗アピール（毎日3-6投稿）",
+      "details": "X (@muse_jp_sol) で資金調達の進捗、トラクション、ビジョンをアピール。目標: 毎日3-6投稿、エンゲージメント率3%+。5件の投稿を marketing/content/posts/2026-03-17-daily.json に作成完了。",
+      "created_at": 1773677880000,
+      "status": "completed",
+      "completed_at": 1742152020000,
+      "assigned_to": "marketing-team",
+      "recurrence": "daily"
     }
   ],
   "deprioritized": [

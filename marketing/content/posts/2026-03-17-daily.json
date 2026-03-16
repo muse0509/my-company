@@ -1,0 +1,51 @@
+{
+  "date": "2026-03-17",
+  "posts": [
+    {
+      "id": "post-001",
+      "content": "Axis Protocol 資金調達進捗: $35K committed / $500K target 🎯\n\n7% → 100% への道。\nSolana DeFi の次世代インフラを一緒に作りませんか？\n\nVCs/Angels 歓迎 → DM open",
+      "scheduled_time": "09:00",
+      "type": "fundraising-progress",
+      "hashtags": ["Solana", "DeFi", "Fundraising"],
+      "estimated_engagement": "high"
+    },
+    {
+      "id": "post-002",
+      "content": "SEZ Dubai Finalist 🇦🇪\nJito Advisor サポート 🤝\nSuperteam JP Member 🇯🇵\n\nトラクションは順調。次は資金調達の加速フェーズ。\n\n$465K to go 💪",
+      "scheduled_time": "12:00",
+      "type": "traction-update",
+      "hashtags": ["Solana", "Web3", "Startup"],
+      "estimated_engagement": "medium-high"
+    },
+    {
+      "id": "post-003",
+      "content": "DeFi は「金融のマイクラ」\n\nレッドストーン回路を組むように、誰でも金融プロトコルを構築できる世界。\n\nAxis Protocol は、その回路を簡単に繋げるツール 🔧",
+      "scheduled_time": "15:00",
+      "type": "market-analysis",
+      "hashtags": ["DeFi", "Solana", "Web3"],
+      "estimated_engagement": "high"
+    },
+    {
+      "id": "post-004",
+      "content": "MVP 開発中: Drift Perps 統合完了 ✅\n\n次は Jupiter aggregation layer を実装。\n\nSolana DeFi のベストプラクティスを一つのプロトコルに集約する。",
+      "scheduled_time": "18:00",
+      "type": "product-development",
+      "hashtags": ["Solana", "DeFi", "BuildInPublic"],
+      "estimated_engagement": "medium"
+    },
+    {
+      "id": "post-005",
+      "content": "20歳、資金調達中、Solana で起業 🚀\n\n「若すぎる」と言われるけど、DeFi は年齢じゃなくて実行力。\n\n$500K Pre-seed 調達中 → 投資家募集 📩",
+      "scheduled_time": "21:00",
+      "type": "founder-story",
+      "hashtags": ["Founder", "Web3", "Solana"],
+      "estimated_engagement": "high"
+    }
+  ],
+  "metadata": {
+    "total_posts": 5,
+    "target_engagement_rate": "3%+",
+    "fundraising_mentions": 3,
+    "status": "ready-to-post"
+  }
+}

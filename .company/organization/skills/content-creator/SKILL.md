@@ -1,85 +1,106 @@
----
-name: content-creator
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
----
+# content-creator
 
-# Content Creator
+Medium記事、YouTube台本、Podcast準備実行スキル。
 
-## Overview
+## Description
 
-[TODO: 1-2 sentences explaining what this skill enables]
+Marketing Team実行層。長文コンテンツ作成（Medium記事下書き、YouTube台本、Podcast準備）。Haiku modelで効率的に高品質長文生成。
 
-## Structuring This Skill
+## When to Use
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+- Medium記事下書き作成
+- YouTube台本作成
+- Podcast episode準備
+- Technical deep dive記事
+- User case study作成
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+## Process
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+### Medium記事下書き
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+**Step 1: トピック決定**
+- Technical deep dive（DeFi, Solana）
+- Build in public story
+- User case study
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+**Step 2: 構成作成**
+- Introduction（Hook）
+- Body（3-5 sections）
+- Conclusion（CTA）
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+**Step 3: 下書き作成**
+- 1500-2500 words
+- Technical but accessible
+- Code snippets（if relevant）
+- Screenshots/diagrams
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+### YouTube台本
 
-## [TODO: Replace with the first main section based on chosen structure]
+**Step 1: フォーマット決定**
+- Tutorial（How to use Axis Pizza）
+- Explanation（How Perps work）
+- Update（Weekly progress）
 
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
+**Step 2: 台本作成**
+- Intro（15 sec）
+- Main content（3-5 min）
+- Outro（15 sec, CTA）
 
-## Resources (optional)
+**Step 3: Visual提案**
+- Screen recording points
+- B-roll suggestions
+- Thumbnail ideas
 
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
+### Podcast準備
 
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
+**Step 1: エピソード計画**
+- Solo episode（Build in public）
+- Guest episode（DeFi builders）
 
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
+**Step 2: Outline作成**
+- Intro（1 min）
+- Main topics（20-30 min）
+- Outro（1 min）
 
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
+**Step 3: 質問リスト**
+- Guest backgroundゲスト背景）
+- Technical questions
+- Community questions
 
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
+## Output Format
 
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
+### Medium記事例:
+```
+Title: "How We Built Axis Pizza: Simplifying DeFi Trading on Solana"
 
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
+Hook: Trading perpetuals on Solana should be simple. But it's not...
 
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
+Section 1: The Problem (500 words)
+- DeFi UX complexity
+- User research insights
 
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
+Section 2: Our Solution (700 words)
+- 1-click trading
+- Visual risk display
 
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
+Section 3: Technical Implementation (500 words)
+- Drift integration
+- Auto risk management
 
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
+Conclusion: (300 words)
+- Results (127 users, 40% retention)
+- What's next (Jupiter, Mobile)
+- CTA: Try Axis Pizza
 
----
+[Total: 2000 words, 8 min read]
+```
 
-**Not every skill requires all three types of resources.**
+## Scripts
+
+- `draft-article.js` - Medium記事下書き生成
+- `create-script.js` - YouTube台本生成
+- `plan-podcast.js` - Podcast outline生成
+
+## Model
+
+Haiku（長文作成も軽量タスク、コスト効率重視）

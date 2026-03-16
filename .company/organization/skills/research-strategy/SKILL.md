@@ -1,85 +1,170 @@
----
-name: research-strategy
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
----
+# research-strategy
 
-# Research Strategy
+市場調査、技術動向スカウト、競合分析、トレンド予測のための戦略スキル。
 
-## Overview
+## Description
 
-[TODO: 1-2 sentences explaining what this skill enables]
+Research Lead向けスキル。市場調査フレームワーク、技術動向スカウト、競合分析、トレンド予測を提供。
 
-## Structuring This Skill
+## When to Use
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+- 市場調査・分析
+- 新技術トレンド発見
+- 競合プロトコル分析
+- 投資家向けレポート作成
+- 戦略的意思決定支援
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+## Core Frameworks
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+### 1. Market Research Framework
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+**Solana DeFi市場:**
+- **TVL:** $8B（2024）
+- **Perps Volume:** $50B/month
+- **User Growth:** 10x（2023→2024）
+- **Top Protocols:** Jupiter, Drift, Marginfi
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+**Axis Pizza TAM:**
+- Solana DeFi users: 1M+
+- Target: 10%（100K users）
+- Current: 127 users（0.01%）
+- Growth potential: 1000x
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+**調査手法:**
+1. **Quantitative:**
+   - DeFiLlama data（TVL, Volume）
+   - Dune Analytics（User metrics）
+   - Token Terminal（Revenue）
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+2. **Qualitative:**
+   - User interviews
+   - Community sentiment（Discord, X）
+   - Expert opinions
 
-## [TODO: Replace with the first main section based on chosen structure]
+### 2. Tech Scouting Framework
 
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
+**Early Signal Detection:**
+- GitHub stars < Developer discussions
+- Commit activity > Star count
+- Discord activity > X followers
 
-## Resources (optional)
+**スカウト領域:**
+1. **DeFi Primitives:**
+   - New AMM designs
+   - Perps innovations
+   - Risk management tools
 
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
+2. **Solana Infra:**
+   - Firedancer progress
+   - Compression tech
+   - Mobile wallets
 
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
+3. **Cross-chain Patterns:**
+   - Ethereum L2 trends → Solana適用
+   - Cosmos patterns → Solana適用
 
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
+**3-Month Forward Looking:**
+- Q1 Focus: Perps UX improvements
+- Q2 Focus: Mobile DeFi
+- Q3 Focus: Social trading
 
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
+### 3. Competitive Analysis Framework
 
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
+**競合プロトコル:**
+1. **Drift:**
+   - Strength: Liquidity, 100K users
+   - Weakness: Complex UX
+   - Positioning: Advanced traders
 
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
+2. **Jupiter Perps:**
+   - Strength: Brand, Swap integration
+   - Weakness: New Perps product
+   - Positioning: Retail traders
 
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
+3. **Marginfi:**
+   - Strength: Lending + Leverage
+   - Weakness: Not Perps-focused
+   - Positioning: Lenders
 
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
+**Axis Pizza Differentiation:**
+- **vs Drift:** Simpler UX（1-click vs multi-step）
+- **vs Jupiter:** Perps-first（not Swap-first）
+- **vs Marginfi:** Pure trading（not Lending）
 
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
+**Feature Comparison Matrix:**
+| Feature | Axis Pizza | Drift | Jupiter | Marginfi |
+|---------|-----------|-------|---------|----------|
+| 1-click Trading | ✅ | ❌ | ❌ | ❌ |
+| Visual Risk | ✅ | ❌ | ❌ | ❌ |
+| Auto Risk Mgmt | ✅ | ❌ | ❌ | ❌ |
+| Mobile App | 🔜 | ❌ | ✅ | ❌ |
+| Liquidity | Low | High | High | Medium |
 
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
+### 4. Trend Prediction Framework
 
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
+**Narrative > Metrics（Crypto特性）:**
+- DeFi UX simplification（現在進行形）
+- Mobile-first DeFi（加速中）
+- Social trading（次の波）
+- AI x DeFi（初期シグナル）
 
----
+**パターン認識:**
+- **Jupiter成長パターン:** 初期100 users → 6ヶ月で10K
+- **Drift成長パターン:** Liquidity first → UX later
+- **Axis Pizzaパターン:** UX first → Liquidity later
 
-**Not every skill requires all three types of resources.**
+**予測:**
+- Q2: Mobile DeFi加速（Solana Mobile Stack）
+- Q3: Social trading台頭（Copy trading需要）
+- Q4: AI assistants for DeFi（教育+自動化）
+
+## References
+
+- **market-research.md:** 調査手法と データソース
+- **tech-scouting.md:** 技術発見プロセス
+- **competitive-analysis.md:** 競合分析フレームワーク
+
+## Workflow Example
+
+```
+1. 週次市場レポート
+   → Market Analyst (Haiku) がデータ収集
+   → Research Lead (Sonnet) が分析+インサイト
+   
+2. 月次技術スカウト
+   → Tech Scout (Haiku) がGitHub/Discord監視
+   → Research Lead (Sonnet) がトレンド抽出
+   
+3. 四半期競合分析
+   → Competitor Tracker (Haiku) が機能比較
+   → Research Lead (Sonnet) が戦略提言
+```
+
+## Communication Style
+
+**報告例:**
+- "DePIN+DeFi融合が加速、3プロトコル確認"
+- "Jupiter成長パターン: 初期100 users, 6ヶ月で10K"
+- "Firedancer Q2ローンチ → Solana 10x throughput"
+
+**原則:**
+- Signal over Noise（ノイズではなくシグナル）
+- Early Detection（早期発見）
+- Pattern Recognition（パターン認識）
+
+## Success Metrics
+
+- **週次レポート:** 毎週月曜配信
+- **新技術発見:** 月3-5件
+- **競合分析:** 四半期ごと
+- **Accuracy:** 予測的中率60%以上
+
+## Model
+
+Sonnet（分析判断に高品質必要）
+
+## Team
+
+- Market Analyst (Haiku)
+- Tech Scout (Haiku)
+- Competitor Tracker (Haiku)

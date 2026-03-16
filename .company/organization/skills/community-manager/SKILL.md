@@ -1,85 +1,95 @@
----
-name: community-manager
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
----
+# community-manager
 
-# Community Manager
+Discord/Telegram管理、質問対応、イベント調整実行スキル。
 
-## Overview
+## Description
 
-[TODO: 1-2 sentences explaining what this skill enables]
+Marketing Team実行層。Discord/Telegram管理、質問対応、イベント調整、コミュニティエンゲージメント。Haiku modelで効率的に迅速対応。
 
-## Structuring This Skill
+## When to Use
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+- Discord/Telegram質問対応
+- FAQ更新
+- イベント（AMA）調整
+- コミュニティフィードバック収集
+- ユーザーサポート
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+## Process
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+### 質問対応
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+**Step 1: 質問分類**
+- **Bug報告:** Engineering teamに転送
+- **機能質問:** FAQ確認 → 回答
+- **Feature request:** Product Leadに転送
+- **一般質問:** 直接回答
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+**Step 2: 回答作成**
+- 丁寧・迅速（5分以内目標）
+- FAQ参照
+- スクリーンショット提供（必要時）
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+**Step 3: フォローアップ**
+- 解決確認
+- FAQ更新（共通質問）
+- フィードバック収集
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+### イベント調整
 
-## [TODO: Replace with the first main section based on chosen structure]
+**AMA:**
+- 日時調整（第1・第3金曜 15:00 JST）
+- X Space設定
+- 告知投稿（24時間前）
+- 質問収集（事前）
+- 実施サポート
+- Recap投稿（事後）
 
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
+### コミュニティエンゲージメント
 
-## Resources (optional)
+**Daily:**
+- 朝の挨拶（"GM!"）
+- 質問対応（20-30件/日）
+- フィードバック収集
+- User highlight（良い質問・貢献）
 
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
+**Weekly:**
+- 週次まとめ（活動ハイライト）
+- Top contributor紹介
 
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
+## Output Format
 
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
+### 質問対応例:
+```
+User: "How do I connect my wallet?"
 
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
+Response:
+"Hi! Click the 'Connect Wallet' button in top right. You can use Phantom, Solflare, or any Solana wallet. Here's a quick guide: [screenshot]
 
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
+Let me know if you need help! 🙌"
 
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
+[Response time: 3 minutes]
+[Category: General question]
+[FAQ: Updated]
+```
 
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
+### AMA調整例:
+```
+Event: AMA #5
+Date: March 15, 2025, 15:00 JST
+Platform: X Space
+Announcement: Posted 24h before
+Pre-collected questions: 15
+Attendance: 50 users
+Recap: Posted 1h after
+Feedback: 45/50 positive
+```
 
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
+## Scripts
 
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
+- `respond-faq.js` - FAQ自動回答
+- `collect-feedback.js` - フィードバック収集・分類
+- `schedule-event.js` - イベントスケジューリング
 
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
+## Model
 
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
-
----
-
-**Not every skill requires all three types of resources.**
+Haiku（質問対応は軽量タスク、迅速性重視）

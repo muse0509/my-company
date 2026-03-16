@@ -1,85 +1,90 @@
----
-name: tech-scout
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
----
+# tech-scout
 
-# Tech Scout
+新技術調査、GitHub動向、プロトコル分析実行スキル。
 
-## Overview
+## Description
 
-[TODO: 1-2 sentences explaining what this skill enables]
+Research Team実行層。新技術調査、GitHub動向監視、プロトコル分析。Haiku modelで効率的に大量リポジトリスキャン。
 
-## Structuring This Skill
+## When to Use
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+- 週次GitHub動向スキャン
+- 新DeFiプロトコル発見
+- Solanaインフラ更新追跡
+- 技術トレンドレポート作成
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+## Process
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+### 週次GitHub Scan
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+**Step 1: リポジトリ監視**
+- Solana Core: solana-labs/solana
+- Drift: drift-labs/protocol-v2
+- Jupiter: jup-ag/jupiter-perps-anchor
+- Firedancer: firedancer-io/firedancer
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+**Step 2: Activity分析**
+- Commit count（週次）
+- PR/Issue discussions
+- New features（merged PRs）
+- Developer engagement
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+**Step 3: トレンド抽出**
+- 共通パターン（複数プロトコルで同じ機能）
+- 新技術（Novel approaches）
+- インフラ改善（Solana core updates）
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+**Step 4: 関連性評価**
+- Axis Pizza適用可能性
+- 実装難易度
+- タイムライン
 
-## [TODO: Replace with the first main section based on chosen structure]
+## Output Format
 
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
+```
+# Weekly Tech Scouting Report - March 10, 2025
 
-## Resources (optional)
+## GitHub Highlights
+- Drift added new liquidation mechanism (commit #1234)
+  - Impact: Lower liquidation risk for users
+  - Axis Pizza relevance: High (we can adopt)
+  
+- Jupiter Perps v2 merged (PR #567)
+  - Impact: Better UX, 1-click trading
+  - Axis Pizza relevance: High (competitive threat)
+  
+- Anchor v0.30 released (new features)
+  - Impact: Better developer experience
+  - Axis Pizza relevance: Medium (easier development)
 
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
+## Discord Discussions
+- Solana Tech: Firedancer beta testing started
+  - Timeline: Q2 2025 launch
+  - Impact: 10x throughput
+  
+- Drift Dev: Intent-based trading discussion
+  - Trend: Simplifying user experience
+  - Axis Pizza relevance: High (aligns with thesis)
 
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
+## Recommendations
+- High priority: Monitor Jupiter mobile SDK (competitive threat)
+- Medium priority: Research intent-based trading (future feature)
+- Low priority: Firedancer optimization (infrastructure)
 
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
+## Action Items
+- [ ] Prototype intent-based flow (PM + Designer)
+- [ ] Evaluate Jupiter mobile SDK (CTO)
+- [ ] Update roadmap with findings (Product Lead)
 
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
+[Scan completed: 2025-03-10 10:00 JST]
+```
 
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
+## Scripts
 
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
+- `scan-github.js` - GitHub自動スキャン
+- `analyze-discussions.js` - Discord/GitHub discussions分析
+- `evaluate-tech.js` - 技術関連性評価
 
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
+## Model
 
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
-
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
-
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
-
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
-
----
-
-**Not every skill requires all three types of resources.**
+Haiku（GitHub スキャンは軽量タスク、大量データ処理向き）
