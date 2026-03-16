@@ -1,42 +1,99 @@
 {
+  "mission": "Axis Protocol $500K USD 調達遂行",
+  "target": "$500,000 USD",
+  "committed": "$35,000 USD",
+  "remaining": "$465,000 USD",
+  "deadline": "2026-06-30",
   "tasks": [
+    {
+      "id": "task-101",
+      "team": "fundraising",
+      "priority": "critical",
+      "category": "investor-outreach",
+      "description": "VCリスト毎日更新＆新規VC発掘（24時間体制）",
+      "details": "Solana/Web3/DeFi 特化VCを毎日リサーチし、VCリストを拡充。目標: 毎日5-10件の新規VC追加。\n\n実施内容：\n1. Crunchbase, AngelList, DeFiLlama Raises から最新投資情報取得\n2. Twitter で Solana VCs をフォロー＆モニタリング\n3. 既存VCの最新投資ニュースを追跡\n4. Fit Score 70+ のVCを優先的にリスト化\n5. 連絡先（メール, Twitter）を収集\n\n完了条件：\n- 毎日5-10件の新規VC追加\n- 週次で50件以上の新規VC発掘\n- 連絡先情報完備\n- Git commit毎日",
+      "created_at": 1773677880000,
+      "status": "pending",
+      "assigned_to": null,
+      "recurrence": "daily"
+    },
+    {
+      "id": "task-102",
+      "team": "fundraising",
+      "priority": "critical",
+      "category": "investor-outreach",
+      "description": "投資家へのCold Email自動送信（毎日3-5件）",
+      "details": "VCリストから Fit Score 70+ の投資家に Cold Email を自動送信。目標: 毎日3-5件送信。\n\n実施内容：\n1. VCリストから未送信かつ Fit Score 70+ を抽出\n2. メールテンプレート使用（既存: cold-email-sender.js）\n3. 送信履歴を記録（重複防止）\n4. 返信監視＆フォローアップ\n5. 送信結果を Telegram で報告\n\n完了条件：\n- 毎日3-5件の Cold Email送信\n- 送信履歴記録\n- 返信率追跡\n- フォローアップ自動化",
+      "created_at": 1773677880000,
+      "status": "pending",
+      "assigned_to": null,
+      "recurrence": "daily"
+    },
+    {
+      "id": "task-103",
+      "team": "fundraising",
+      "priority": "critical",
+      "category": "pitch-materials",
+      "description": "ピッチデック更新（Use of Proceeds, P/L反映）",
+      "details": "最新の Use of Proceeds ($500K) と P/L を反映したピッチデックを作成・更新。\n\n実施内容：\n1. 既存ピッチデックを確認（.company/fundraising/pitches/）\n2. Use of Proceeds スライド追加（task-001完成版使用）\n3. P/L スライド追加（task-002完成版使用）\n4. トラクション数値更新（SEZ Dubai Finalist, Jito Advisor等）\n5. 投資ハイライト追加（$5M cap, 12-month runway）\n6. PDF & PPTX 生成\n\n完了条件：\n- 最新版ピッチデック完成\n- Use of Proceeds + P/L 反映\n- PDF & PPTX で保存\n- Git commit",
+      "created_at": 1773677880000,
+      "status": "pending",
+      "assigned_to": null
+    },
+    {
+      "id": "task-104",
+      "team": "marketing",
+      "priority": "high",
+      "category": "traction-building",
+      "description": "X投稿で資金調達進捗アピール（毎日3-6投稿）",
+      "details": "X (@muse_jp_sol) で資金調達の進捗、トラクション、ビジョンをアピール。目標: 毎日3-6投稿、エンゲージメント率3%+。\n\n投稿内容：\n1. 資金調達進捗（「$35K committed, $465K to go」等）\n2. トラクション更新（SEZ Dubai, Jito, Superteam等）\n3. プロダクト開発進捗（MVP機能、技術的挑戦）\n4. DeFi/Solana 市場分析（専門性アピール）\n5. 投資家へのメッセージ（DM歓迎、資金調達中）\n\n完了条件：\n- 毎日3-6投稿\n- エンゲージメント率3%+\n- 資金調達関連投稿を週5回以上\n- Git commit",
+      "created_at": 1773677880000,
+      "status": "pending",
+      "assigned_to": null,
+      "recurrence": "daily"
+    },
+    {
+      "id": "task-105",
+      "team": "operations",
+      "priority": "high",
+      "category": "tracking",
+      "description": "資金調達ダッシュボード作成（進捗可視化）",
+      "details": "資金調達の進捗を可視化するダッシュボードを作成。目標: 毎日更新、GitHub Pages でホスト。\n\n実施内容：\n1. ダッシュボード HTML/JS 作成\n2. 表示項目：\n   - 調達目標: $500K\n   - 調達済み: $35K (7%)\n   - 残り: $465K\n   - VCコンタクト数\n   - Cold Email送信数\n   - 返信率\n   - 次回ミーティング日程\n3. 毎日自動更新（Cron）\n4. GitHub Pages でホスト\n5. URL を投資家に共有可能\n\n完了条件：\n- ダッシュボード稼働\n- 毎日自動更新\n- GitHub Pages ホスト\n- URL共有可能",
+      "created_at": 1773677880000,
+      "status": "pending",
+      "assigned_to": null
+    },
+    {
+      "id": "task-106",
+      "team": "fundraising",
+      "priority": "high",
+      "category": "investor-outreach",
+      "description": "投資家フォローアップ自動化（7日後リマインド）",
+      "details": "Cold Email 送信後、返信がない投資家に7日後自動フォローアップ。\n\n実施内容：\n1. 送信履歴から7日経過した未返信投資家を抽出\n2. フォローアップメールテンプレート使用\n3. 追加情報提供（ピッチデック、トラクション更新）\n4. 送信結果を記録\n5. 2回目のフォローアップ（14日後）も自動化\n\n完了条件：\n- 7日後自動フォローアップ稼働\n- 14日後2回目フォローアップ\n- 送信履歴記録\n- Git commit",
+      "created_at": 1773677880000,
+      "status": "pending",
+      "assigned_to": null
+    },
+    {
+      "id": "task-107",
+      "team": "marketing",
+      "priority": "medium",
+      "category": "traction-building",
+      "description": "トラクション数値の定期更新（週次）",
+      "details": "投資家向けトラクション数値を毎週更新。目標: 週次で成長を可視化。\n\n更新項目：\n1. X フォロワー数\n2. GitHub Stars\n3. Discord/Telegram メンバー数\n4. MVP ユーザー数（ベータ開始後）\n5. パートナーシップ数\n6. メディア露出\n\n完了条件：\n- 週次レポート作成\n- ピッチデックに反映\n- 投資家向けメール更新\n- Git commit",
+      "created_at": 1773677880000,
+      "status": "pending",
+      "assigned_to": null,
+      "recurrence": "weekly"
+    },
     {
       "id": "task-003",
       "team": "marketing",
-      "priority": "high",
+      "priority": "medium",
+      "category": "content",
       "description": "X投稿案70個作成（朝まで）",
       "details": "Muse (@muse_jp_sol) のスタイルで X 投稿案を70個作成。Solana/DeFi/予測市場/Web3 関連。技術的比喩あり、簡潔で直接的、約50-80文字。各投稿に推定エンゲージメントスコア付き。.company/marketing/content/ に保存。",
       "created_at": 1773677329000,
-      "status": "pending",
-      "assigned_to": null
-    },
-    {
-      "id": "task-005",
-      "team": "developer",
-      "priority": "high",
-      "description": "全 Skills を Muse 専用にカスタマイズ＆拡張（朝まで）",
-      "details": "既存の全 Skills (.company/organization/skills/, .company/development/axis-team/skills/ 等) を Anthropic ガイドに沿ってリファクタし、Muse 専用にカスタマイズ。\n\n実施内容：\n1. 各 SKILL.md に必須セクション追加（Purpose, When to use, Prerequisites, Instructions, Examples, Common pitfalls）\n2. Muse の文脈を組み込む（スタイル: 技術的比喩・簡潔・直接的、好み: Solana/DeFi/予測市場、過去の成功例を参照）\n3. scripts/ に実行可能スクリプト追加（Node.js/Python）\n4. references/ に参照資料追加（既存ドキュメント、API仕様等）\n5. 各 Skill を「Muse のためのエージェント」として機能するよう最適化\n\n対象 Skills：\n- C-Suite: CEO, CTO, COO\n- Organization: VC Researcher, Pitch Builder, X Writer, Market Analyst, Content Creator, Community Manager 等\n- Development: Engineer A/B, PM, Designer\n\n完了条件：\n- 全 Skills が Anthropic ガイドに準拠\n- Muse のスタイル・好みが反映されている\n- scripts/ に実行可能コード（最低1つ/Skill）\n- Git commit & push",
-      "created_at": 1773677568000,
-      "status": "pending",
-      "assigned_to": null
-    },
-    {
-      "id": "task-006",
-      "team": "developer",
-      "priority": "critical",
-      "description": "Phase 1: X API 自動投稿システム構築（朝まで）",
-      "details": "X API v2 を使った完全自動投稿システムを構築。Muse アカウント (@muse_jp_sol) で自動投稿を実現。\n\n実施内容：\n1. X API v2 Bearer Token 確認・設定\n2. 投稿スクリプト作成（Node.js）\n   - API v2 POST /2/tweets エンドポイント使用\n   - エラーハンドリング（Rate limit, Auth エラー等）\n   - リトライロジック\n3. 品質フィルター実装\n   - エンゲージメントスコア 70+ のみ自動投稿\n   - スコア 60-69: 下書き保存（手動確認用）\n   - スコア <60: 破棄\n4. 投稿頻度制限\n   - 1日最大6投稿\n   - 投稿間隔: 最低2時間\n   - 深夜帯（23:00-07:00）は投稿しない\n5. ログ記録\n   - 全投稿を .company/marketing/logs/YYYY-MM-DD-posts.json に記録\n   - 成功/失敗/スキップの理由を記録\n   - Git commit\n6. Cron 統合\n   - 毎日3回実行（10:00, 15:00, 20:00 JST）\n   - タスクキューから投稿案を取得\n   - 自動投稿＆ログ記録\n\n完了条件：\n- X API で自動投稿可能\n- 品質フィルター稼働\n- 投稿ログが GitHub に記録される\n- Cron で自動実行\n\nファイル保存先：\n- .company/marketing/scripts/x-auto-post.js\n- .company/marketing/logs/\n- README.md 更新",
-      "created_at": 1773677820000,
-      "status": "pending",
-      "assigned_to": null
-    },
-    {
-      "id": "task-007",
-      "team": "operations",
-      "priority": "medium",
-      "description": "Phase 2/3 設計: Alex 完全自律化ロードマップ作成",
-      "details": "Phase 2（Alex 専用アカウント）と Phase 3（完全自律モード）の詳細設計ドキュメントを作成。\n\n実施内容：\n1. Phase 2 設計\n   - Alex 専用 X アカウント仕様\n   - アカウント名候補: @alex_axis_ai, @alex_openclaw\n   - 投稿内容: 毎日の進捗報告、GitHub コミット通知、タスク完了報告\n   - 実装タイムライン: 明日（2026-03-17 夜）\n2. Phase 3 設計\n   - 完全自律モードの定義\n   - 承認フロー: 承認不要タスク vs 承認必要タスク\n   - タスク優先度の自動判定ロジック\n   - 24/365 完全自律運用の安全性担保\n   - 実装タイムライン: 今週末（2026-03-21）\n3. リスク分析\n   - X API Rate Limit\n   - 投稿品質の維持\n   - 暴走防止（Kill Switch 設計）\n   - Muse への緊急連絡方法\n4. KPI 定義\n   - 自動投稿成功率\n   - タスク完了率\n   - GitHub コミット頻度\n   - エンゲージメント率\n\n完了条件：\n- Phase 2/3 の詳細設計書が完成\n- リスク分析完了\n- KPI 定義完了\n- 実装タイムライン明確\n\nファイル保存先：\n- .company/operations/roadmap/alex-autonomous-roadmap.md\n- .company/operations/design/phase2-alex-account.md\n- .company/operations/design/phase3-full-autonomous.md",
-      "created_at": 1773677820000,
       "status": "pending",
       "assigned_to": null
     }
@@ -74,6 +131,23 @@
       "status": "completed",
       "completed_at": 1742135520000,
       "assigned_to": "fundraising-team"
+    }
+  ],
+  "deprioritized": [
+    {
+      "id": "task-005",
+      "reason": "資金調達と直接関係ない。調達完了後に実施。",
+      "description": "全 Skills を Muse 専用にカスタマイズ＆拡張（朝まで）"
+    },
+    {
+      "id": "task-006",
+      "reason": "Phase 1完成後に実施。資金調達優先。",
+      "description": "Phase 1: X API 自動投稿システム構築（朝まで）"
+    },
+    {
+      "id": "task-007",
+      "reason": "設計より実行優先。資金調達に集中。",
+      "description": "Phase 2/3 設計: Alex 完全自律化ロードマップ作成"
     }
   ]
 }
