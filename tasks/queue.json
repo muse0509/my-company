@@ -40,8 +40,6 @@
       "status": "pending",
       "assigned_to": null
     },
-
-
     {
       "id": "task-106",
       "team": "fundraising",
@@ -50,29 +48,6 @@
       "description": "投資家フォローアップ自動化（7日後リマインド）",
       "details": "Cold Email 送信後、返信がない投資家に7日後自動フォローアップ。\n\n実施内容：\n1. 送信履歴から7日経過した未返信投資家を抽出\n2. フォローアップメールテンプレート使用\n3. 追加情報提供（ピッチデック、トラクション更新）\n4. 送信結果を記録\n5. 2回目のフォローアップ（14日後）も自動化\n\n完了条件：\n- 7日後自動フォローアップ稼働\n- 14日後2回目フォローアップ\n- 送信履歴記録\n- Git commit",
       "created_at": 1773677880000,
-      "status": "pending",
-      "assigned_to": null
-    },
-    {
-      "id": "task-107",
-      "team": "marketing",
-      "priority": "medium",
-      "category": "traction-building",
-      "description": "トラクション数値の定期更新（週次）",
-      "details": "投資家向けトラクション数値を毎週更新。目標: 週次で成長を可視化。\n\n更新項目：\n1. X フォロワー数\n2. GitHub Stars\n3. Discord/Telegram メンバー数\n4. MVP ユーザー数（ベータ開始後）\n5. パートナーシップ数\n6. メディア露出\n\n完了条件：\n- 週次レポート作成\n- ピッチデックに反映\n- 投資家向けメール更新\n- Git commit",
-      "created_at": 1773677880000,
-      "status": "pending",
-      "assigned_to": null,
-      "recurrence": "weekly"
-    },
-    {
-      "id": "task-003",
-      "team": "marketing",
-      "priority": "medium",
-      "category": "content",
-      "description": "X投稿案70個作成（朝まで）",
-      "details": "Muse (@muse_jp_sol) のスタイルで X 投稿案を70個作成。Solana/DeFi/予測市場/Web3 関連。技術的比喩あり、簡潔で直接的、約50-80文字。各投稿に推定エンゲージメントスコア付き。.company/marketing/content/ に保存。",
-      "created_at": 1773677329000,
       "status": "pending",
       "assigned_to": null
     }
@@ -135,6 +110,31 @@
       "status": "completed",
       "completed_at": 1742165340000,
       "assigned_to": "operations-team"
+    },
+    {
+      "id": "task-003",
+      "team": "marketing",
+      "priority": "medium",
+      "category": "content",
+      "description": "X投稿案70個作成（朝まで）",
+      "details": "Muse (@muse_jp_sol) のスタイルで X 投稿案を70個作成。Solana/DeFi/予測市場/Web3 関連。技術的比喩あり、簡潔で直接的、約50-80文字。各投稿に推定エンゲージメントスコア付き。.company/marketing/content/ に保存。",
+      "created_at": 1773677329000,
+      "status": "completed",
+      "completed_at": 1742170620000,
+      "assigned_to": "marketing-team"
+    },
+    {
+      "id": "task-107",
+      "team": "marketing",
+      "priority": "medium",
+      "category": "traction-building",
+      "description": "トラクション数値の定期更新（週次）",
+      "details": "投資家向けトラクション数値を毎週更新。目標: 週次で成長を可視化。\n\n更新項目：\n1. X フォロワー数\n2. GitHub Stars\n3. Discord/Telegram メンバー数\n4. MVP ユーザー数（ベータ開始後）\n5. パートナーシップ数\n6. メディア露出\n\n完了条件：\n- 週次レポート作成\n- ピッチデックに反映\n- 投資家向けメール更新\n- Git commit",
+      "created_at": 1773677880000,
+      "status": "completed",
+      "completed_at": 1742170620000,
+      "assigned_to": "marketing-team",
+      "recurrence": "weekly"
     }
   ],
   "deprioritized": [

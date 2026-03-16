@@ -1,0 +1,433 @@
+{
+  "generated_at": "2026-03-17T01:32:00+09:00",
+  "total_posts": 70,
+  "style_guide": {
+    "avg_length": "50-80 chars",
+    "tone": "direct, technical, confident",
+    "topics": ["Solana", "DeFi", "prediction markets", "Web3"],
+    "use_metaphors": true
+  },
+  "posts": [
+    {
+      "id": 1,
+      "text": "予測市場は金融のレッドストーン回路。複雑に見えて、ロジックは超シンプル。",
+      "category": "product-philosophy",
+      "estimated_engagement": 85,
+      "notes": "Technical metaphor, Muse signature style"
+    },
+    {
+      "id": 2,
+      "text": "Drift Perps統合完了間近。オンチェーン流動性がゲームを変える。",
+      "category": "product-update",
+      "estimated_engagement": 78
+    },
+    {
+      "id": 3,
+      "text": "20歳で起業。失敗する確率？高い。やる理由？それ以上に面白いから。",
+      "category": "founder-story",
+      "estimated_engagement": 92
+    },
+    {
+      "id": 4,
+      "text": "Solanaの速度は武器。でも本当の価値は、その上で何を作るか。",
+      "category": "ecosystem-insight",
+      "estimated_engagement": 80
+    },
+    {
+      "id": 5,
+      "text": "投資家に会うたび思う。ピッチは製品の1%も伝えられない。",
+      "category": "fundraising-insight",
+      "estimated_engagement": 75
+    },
+    {
+      "id": 6,
+      "text": "DeFiの未来は予測不可能。だから予測市場が必要なんだ。",
+      "category": "market-thesis",
+      "estimated_engagement": 88
+    },
+    {
+      "id": 7,
+      "text": "SEZ Dubai Finalist。次はプロダクトで証明する番。",
+      "category": "milestone",
+      "estimated_engagement": 82
+    },
+    {
+      "id": 8,
+      "text": "流動性プールは川。流れが止まれば、すべてが死ぬ。",
+      "category": "defi-education",
+      "estimated_engagement": 77
+    },
+    {
+      "id": 9,
+      "text": "オンチェーンで嘘はつけない。だから信頼がいらない。",
+      "category": "web3-philosophy",
+      "estimated_engagement": 90
+    },
+    {
+      "id": 10,
+      "text": "Jitoとアドバイザー契約。Solanaエコシステムで本気で戦う。",
+      "category": "partnership",
+      "estimated_engagement": 84
+    },
+    {
+      "id": 11,
+      "text": "コードは正直。市場も正直。人間が一番複雑。",
+      "category": "philosophy",
+      "estimated_engagement": 79
+    },
+    {
+      "id": 12,
+      "text": "予測市場のコアはインセンティブ設計。間違えたら全部崩れる。",
+      "category": "product-philosophy",
+      "estimated_engagement": 81
+    },
+    {
+      "id": 13,
+      "text": "資金調達は手段。目的はプロダクト。順番を間違えない。",
+      "category": "founder-mindset",
+      "estimated_engagement": 86
+    },
+    {
+      "id": 14,
+      "text": "Solanaのトランザクション速度、1秒で世界が変わる。",
+      "category": "tech-highlight",
+      "estimated_engagement": 74
+    },
+    {
+      "id": 15,
+      "text": "MVPは完璧じゃない。でもそれでいい。フィードバックが全て。",
+      "category": "product-dev",
+      "estimated_engagement": 76
+    },
+    {
+      "id": 16,
+      "text": "分散型は理想論じゃない。効率とセキュリティの最適解。",
+      "category": "web3-thesis",
+      "estimated_engagement": 83
+    },
+    {
+      "id": 17,
+      "text": "Superteam JPで学んだこと：コミュニティは資産。",
+      "category": "community",
+      "estimated_engagement": 78
+    },
+    {
+      "id": 18,
+      "text": "失敗は前提。次にどう動くかが勝負。",
+      "category": "mindset",
+      "estimated_engagement": 80
+    },
+    {
+      "id": 19,
+      "text": "オラクル問題、予測市場で解決できる部分がある。",
+      "category": "technical-insight",
+      "estimated_engagement": 72
+    },
+    {
+      "id": 20,
+      "text": "DeFiプロトコルはレゴブロック。組み合わせで無限の可能性。",
+      "category": "defi-education",
+      "estimated_engagement": 85
+    },
+    {
+      "id": 21,
+      "text": "トークンエコノミクスは心理学。数字だけじゃ設計できない。",
+      "category": "tokenomics",
+      "estimated_engagement": 88
+    },
+    {
+      "id": 22,
+      "text": "起業は孤独。でもコミュニティがいれば戦える。",
+      "category": "founder-story",
+      "estimated_engagement": 79
+    },
+    {
+      "id": 23,
+      "text": "スマートコントラクトは法律。バグは致命的。",
+      "category": "security",
+      "estimated_engagement": 81
+    },
+    {
+      "id": 24,
+      "text": "ユーザーの声が最強のPM。耳を澄ませ。",
+      "category": "product-philosophy",
+      "estimated_engagement": 77
+    },
+    {
+      "id": 25,
+      "text": "Web3の本質は所有権。データも、資産も、未来も。",
+      "category": "web3-philosophy",
+      "estimated_engagement": 91
+    },
+    {
+      "id": 26,
+      "text": "予測市場は民主化された情報集約マシン。",
+      "category": "product-vision",
+      "estimated_engagement": 84
+    },
+    {
+      "id": 27,
+      "text": "コミュニティ第一。プロダクトは後からついてくる。",
+      "category": "community",
+      "estimated_engagement": 75
+    },
+    {
+      "id": 28,
+      "text": "Solanaエコシステム、まだまだ序章。本番はこれから。",
+      "category": "ecosystem-outlook",
+      "estimated_engagement": 80
+    },
+    {
+      "id": 29,
+      "text": "AMM、Order Book、どっちが正解？状況次第。",
+      "category": "technical-debate",
+      "estimated_engagement": 76
+    },
+    {
+      "id": 30,
+      "text": "20歳の武器はスピード。経験不足は行動量でカバー。",
+      "category": "founder-mindset",
+      "estimated_engagement": 87
+    },
+    {
+      "id": 31,
+      "text": "ガバナンストークン、投票率5%未満なら意味ない。",
+      "category": "dao-critique",
+      "estimated_engagement": 82
+    },
+    {
+      "id": 32,
+      "text": "オンチェーンデータは宝の山。掘り方を知ってる人が勝つ。",
+      "category": "data-insight",
+      "estimated_engagement": 78
+    },
+    {
+      "id": 33,
+      "text": "プロダクトマーケットフィット、探すんじゃなくて作る。",
+      "category": "startup-philosophy",
+      "estimated_engagement": 83
+    },
+    {
+      "id": 34,
+      "text": "Drift統合で流動性が爆発する。準備はできてる。",
+      "category": "product-teaser",
+      "estimated_engagement": 79
+    },
+    {
+      "id": 35,
+      "text": "投資家との会話、9割はビジョン。1割が数字。",
+      "category": "fundraising-insight",
+      "estimated_engagement": 74
+    },
+    {
+      "id": 36,
+      "text": "分散型予測市場、中央集権の10倍透明。信頼不要。",
+      "category": "product-value-prop",
+      "estimated_engagement": 86
+    },
+    {
+      "id": 37,
+      "text": "失敗したプロジェクト見ると学びしかない。教科書より濃い。",
+      "category": "learning",
+      "estimated_engagement": 80
+    },
+    {
+      "id": 38,
+      "text": "Solanaのコンポーザビリティ、DeFiの未来を加速させる。",
+      "category": "tech-thesis",
+      "estimated_engagement": 77
+    },
+    {
+      "id": 39,
+      "text": "トークンローンチは手段。コミュニティ育成が目的。",
+      "category": "tokenomics",
+      "estimated_engagement": 81
+    },
+    {
+      "id": 40,
+      "text": "開発速度 > 完璧主義。市場は待ってくれない。",
+      "category": "startup-mindset",
+      "estimated_engagement": 85
+    },
+    {
+      "id": 41,
+      "text": "予測市場はクラウドソースの未来予測。集合知の力。",
+      "category": "product-education",
+      "estimated_engagement": 76
+    },
+    {
+      "id": 42,
+      "text": "Superteam JPのイベント、毎回学びが深い。感謝。",
+      "category": "community-shoutout",
+      "estimated_engagement": 72
+    },
+    {
+      "id": 43,
+      "text": "DeFiのリスク管理、オフチェーンより難しい。でも面白い。",
+      "category": "technical-challenge",
+      "estimated_engagement": 79
+    },
+    {
+      "id": 44,
+      "text": "ユーザーエクスペリエンス、Web2並みにならないと普及しない。",
+      "category": "ux-insight",
+      "estimated_engagement": 84
+    },
+    {
+      "id": 45,
+      "text": "資金調達$35K達成。残り$465K、全力で取りに行く。",
+      "category": "fundraising-update",
+      "estimated_engagement": 88
+    },
+    {
+      "id": 46,
+      "text": "オンチェーンガバナンス、理想と現実のギャップまだでかい。",
+      "category": "dao-reality",
+      "estimated_engagement": 75
+    },
+    {
+      "id": 47,
+      "text": "Solanaのエコシステム成長率、2026年が勝負の年。",
+      "category": "ecosystem-prediction",
+      "estimated_engagement": 80
+    },
+    {
+      "id": 48,
+      "text": "スマートコントラクト監査、絶対に妥協しない。",
+      "category": "security-commitment",
+      "estimated_engagement": 77
+    },
+    {
+      "id": 49,
+      "text": "予測市場の精度、参加者の質で決まる。インセンティブ設計が鍵。",
+      "category": "product-insight",
+      "estimated_engagement": 82
+    },
+    {
+      "id": 50,
+      "text": "20歳起業家の強み：失うものがない。全部賭けられる。",
+      "category": "founder-perspective",
+      "estimated_engagement": 90
+    },
+    {
+      "id": 51,
+      "text": "DeFiプロトコル、ユーザー数より流動性。質が全て。",
+      "category": "metrics-philosophy",
+      "estimated_engagement": 78
+    },
+    {
+      "id": 52,
+      "text": "Drift Perpsとの統合、技術的に最高に面白い。",
+      "category": "tech-excitement",
+      "estimated_engagement": 74
+    },
+    {
+      "id": 53,
+      "text": "コミュニティからのフィードバック、開発の90%を決める。",
+      "category": "community-driven",
+      "estimated_engagement": 79
+    },
+    {
+      "id": 54,
+      "text": "オンチェーン決済、まだまだ改善の余地あり。チャンス。",
+      "category": "opportunity-spotting",
+      "estimated_engagement": 76
+    },
+    {
+      "id": 55,
+      "text": "Web3起業、失敗率高い。でも成功したら世界が変わる。",
+      "category": "risk-reward",
+      "estimated_engagement": 85
+    },
+    {
+      "id": 56,
+      "text": "予測市場の流動性プール設計、数学と経済学の交差点。",
+      "category": "technical-deep-dive",
+      "estimated_engagement": 73
+    },
+    {
+      "id": 57,
+      "text": "Solanaのブロック時間400ms、リアルタイム体験が可能になる。",
+      "category": "tech-advantage",
+      "estimated_engagement": 81
+    },
+    {
+      "id": 58,
+      "text": "起業して学んだこと：完璧なタイミングなんてない。今やる。",
+      "category": "founder-lesson",
+      "estimated_engagement": 87
+    },
+    {
+      "id": 59,
+      "text": "トークンエコノミクス失敗例から学ぶ方が早い。",
+      "category": "learning-strategy",
+      "estimated_engagement": 75
+    },
+    {
+      "id": 60,
+      "text": "DeFiの次の波は予測市場。確信してる。",
+      "category": "market-prediction",
+      "estimated_engagement": 89
+    },
+    {
+      "id": 61,
+      "text": "開発者コミュニティ、Solanaが一番熱い。体感で分かる。",
+      "category": "ecosystem-vibe",
+      "estimated_engagement": 77
+    },
+    {
+      "id": 62,
+      "text": "投資家ピッチ50回超えた。次の50回で$500K取る。",
+      "category": "fundraising-determination",
+      "estimated_engagement": 83
+    },
+    {
+      "id": 63,
+      "text": "オンチェーン透明性、信頼の再定義。",
+      "category": "web3-value",
+      "estimated_engagement": 80
+    },
+    {
+      "id": 64,
+      "text": "SEZ Dubai Finalist、スタートライン。ゴールはまだ先。",
+      "category": "milestone-perspective",
+      "estimated_engagement": 78
+    },
+    {
+      "id": 65,
+      "text": "予測市場は情報の民主化。誰でも参加、誰でも利益。",
+      "category": "product-mission",
+      "estimated_engagement": 84
+    },
+    {
+      "id": 66,
+      "text": "Solanaエコシステム、2026年で10倍成長する。賭けてもいい。",
+      "category": "bold-prediction",
+      "estimated_engagement": 91
+    },
+    {
+      "id": 67,
+      "text": "DeFiの最大の敵はUX。ここを制する者が勝つ。",
+      "category": "competitive-insight",
+      "estimated_engagement": 86
+    },
+    {
+      "id": 68,
+      "text": "コード書いてる時が一番落ち着く。起業家あるある。",
+      "category": "founder-personality",
+      "estimated_engagement": 74
+    },
+    {
+      "id": 69,
+      "text": "資金調達は長距離走。スプリントじゃない。ペース配分大事。",
+      "category": "fundraising-wisdom",
+      "estimated_engagement": 79
+    },
+    {
+      "id": 70,
+      "text": "Axis Protocol、2026年6月までに$500K調達完了。見てて。",
+      "category": "commitment-statement",
+      "estimated_engagement": 92
+    }
+  ]
+}
