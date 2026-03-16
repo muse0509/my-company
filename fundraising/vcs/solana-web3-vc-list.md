@@ -1,6 +1,7 @@
 # Solana/Web3/DeFi Focused VC List
 
-**Last Updated:** March 17, 2026
+**Last Updated:** March 17, 2026 (Daily Update)
+**New VCs Added:** 8 (Variant Fund, 6th Man Ventures, Colosseum, Big Brain Holdings, Reciprocal Ventures, Chapter One, Orange DAO, Amber Group)
 
 ## Tier 1 VCs (Lead Investors)
 
@@ -202,6 +203,96 @@
 - **Contact:**
   - Website: https://www.galaxy.com
   - Twitter: @galaxydigital
+
+## New Additions (March 17, 2026)
+
+### 21. Variant Fund
+- **Focus:** Web3 infrastructure, DeFi, ownership economy
+- **Ticket Size:** $1M - $10M (Seed to Series A)
+- **Notable Investments:** Uniswap, Foundation, Mirror, SuperRare
+- **Investment Thesis:** Ownership economy, creator tools, decentralized networks
+- **Contact:**
+  - Website: https://variant.fund
+  - Twitter: @variantfund
+- **Fit Score:** 75/100
+- **Notes:** Strong thesis on user-owned networks, active in governance
+
+### 22. 6th Man Ventures
+- **Focus:** Solana ecosystem, gaming, NFTs
+- **Ticket Size:** $250K - $2M (Pre-seed to Seed)
+- **Notable Investments:** Star Atlas, Fractal, Okay Bears, DeGods
+- **Investment Thesis:** Solana-native projects, community-driven
+- **Contact:**
+  - Website: https://6thman.ventures
+  - Twitter: @6thManVentures
+- **Fit Score:** 85/100
+- **Notes:** Very active in Solana community, fast decision-making
+
+### 23. Colosseum
+- **Focus:** Solana ecosystem (accelerator + VC), DeFi, consumer apps
+- **Ticket Size:** $250K - $3M (Pre-seed to Seed)
+- **Notable Investments:** Tensor, Dialect, Jito, Kamino
+- **Investment Thesis:** Solana breakout companies, product-market fit focus
+- **Contact:**
+  - Website: https://colosseum.org
+  - Twitter: @colosseum_org
+- **Fit Score:** 90/100
+- **Notes:** Former Solana Foundation team, runs Solana Hackathons, excellent network
+
+### 24. Big Brain Holdings
+- **Focus:** Solana DeFi, derivatives, trading infrastructure
+- **Ticket Size:** $500K - $5M (Seed to Series A)
+- **Notable Investments:** Mango Markets, Drift Protocol, Jupiter
+- **Investment Thesis:** Solana DeFi primitives, trading-focused
+- **Contact:**
+  - Website: https://bigbrain.holdings
+  - Twitter: @bigbrainholding
+- **Fit Score:** 88/100
+- **Notes:** Deep Solana DeFi expertise, prediction market experience (Mango)
+
+### 25. Reciprocal Ventures
+- **Focus:** Solana infrastructure, DeFi, payments
+- **Ticket Size:** $500K - $3M (Seed)
+- **Notable Investments:** Jito, Squads, Helius, Switchboard
+- **Investment Thesis:** Solana ecosystem development, infrastructure-first
+- **Contact:**
+  - Website: https://reciprocal.ventures
+  - Twitter: @reciprocalvc
+- **Fit Score:** 82/100
+- **Notes:** Strong Solana validator operations, technical diligence
+
+### 26. Chapter One
+- **Focus:** Web3, DeFi, gaming, NFTs
+- **Ticket Size:** $1M - $10M (Seed to Series A)
+- **Notable Investments:** Axie Infinity, Magic Eden, Zora, Phantom
+- **Investment Thesis:** Consumer crypto adoption, user experience focus
+- **Contact:**
+  - Website: https://chapter.one
+  - Twitter: @chapterone
+- **Fit Score:** 78/100
+- **Notes:** Strong consumer focus, good for product feedback
+
+### 27. Orange DAO
+- **Focus:** Crypto-native projects, DeFi, infrastructure
+- **Ticket Size:** $100K - $1M (Pre-seed to Seed)
+- **Notable Investments:** Y Combinator crypto alumni network
+- **Investment Thesis:** YC crypto batch support, community-driven
+- **Contact:**
+  - Website: https://www.orangedao.xyz
+  - Twitter: @orangedaoxyz
+- **Fit Score:** 70/100
+- **Notes:** Decentralized decision-making, good for early traction
+
+### 28. Amber Group
+- **Focus:** Trading, DeFi protocols, derivatives
+- **Ticket Size:** $1M - $10M (Seed to Series A)
+- **Notable Investments:** Multiple DeFi protocols, trading infrastructure
+- **Investment Thesis:** Trading infrastructure, liquidity provision
+- **Contact:**
+  - Website: https://www.ambergroup.io
+  - Twitter: @ambergroup_io
+- **Fit Score:** 80/100
+- **Notes:** Strong trading desk, can provide liquidity and market-making support
 
 ---
 
