@@ -1,7 +1,7 @@
 # Solana/Web3/DeFi Focused VC List
 
-**Last Updated:** March 17, 2026 (Daily Update)
-**New VCs Added:** 8 (Variant Fund, 6th Man Ventures, Colosseum, Big Brain Holdings, Reciprocal Ventures, Chapter One, Orange DAO, Amber Group)
+**Last Updated:** March 17, 2026 01:40 JST (Daily Update)
+**New VCs Added Today:** 7 (Placeholder VC, 6MV, Superteam DAO, Canonical Crypto, Hack VC, Alliance DAO, LongHash Ventures)
 
 ## Tier 1 VCs (Lead Investors)
 
@@ -333,6 +333,83 @@
 - Follow-up 1 → Wait 7 business days
 - Follow-up 2 → Final attempt
 - Move to next tier if no response
+
+### 29. Placeholder VC
+- **Focus:** Web3 protocols, DeFi infrastructure, decentralized networks
+- **Ticket Size:** $1M - $10M (Seed to Series A)
+- **Notable Investments:** Maker, UMA, Arweave, Numerai
+- **Investment Thesis:** Protocol-level innovation, cryptoeconomic design
+- **Contact:**
+  - Website: https://www.placeholder.vc
+  - Twitter: @placeholdervc
+- **Fit Score:** 76/100
+- **Notes:** Strong protocol focus, hands-off post-investment
+
+### 30. 6MV (6th Man Ventures II)
+- **Focus:** Solana gaming, NFT infrastructure, consumer crypto
+- **Ticket Size:** $500K - $3M (Seed)
+- **Notable Investments:** Tensor, DeGods y00ts, Okay Bears ecosystem
+- **Investment Thesis:** Solana-native consumer applications
+- **Contact:**
+  - Website: https://6mv.vc
+  - Twitter: @6MVentures
+- **Fit Score:** 87/100
+- **Notes:** Solana community leaders, very active in ecosystem
+
+### 31. Superteam DAO
+- **Focus:** Solana ecosystem grants & investments, community projects
+- **Ticket Size:** $50K - $500K (Pre-seed to Seed)
+- **Notable Investments:** Solana ecosystem projects globally
+- **Investment Thesis:** Community-driven, regional Solana growth
+- **Contact:**
+  - Website: https://superteam.fun
+  - Twitter: @superteamdao
+- **Fit Score:** 82/100
+- **Notes:** Strong Asian presence, good for early traction validation
+
+### 32. Canonical Crypto
+- **Focus:** Early-stage Web3, DeFi, infrastructure
+- **Ticket Size:** $500K - $5M (Pre-seed to Seed)
+- **Notable Investments:** dYdX, Argent, Zora, Aztec
+- **Investment Thesis:** Crypto-native builders, long-term protocol value
+- **Contact:**
+  - Website: https://canonical.xyz
+  - Twitter: @canonical_xyz
+- **Fit Score:** 74/100
+- **Notes:** Technical founders, strong advisory support
+
+### 33. Hack VC
+- **Focus:** DeFi protocols, blockchain infrastructure, cross-chain
+- **Ticket Size:** $1M - $10M (Seed to Series A)
+- **Notable Investments:** Etherscan, Polygon, Optimism, Chainlink
+- **Investment Thesis:** Developer tools and infrastructure
+- **Contact:**
+  - Website: https://hack.vc
+  - Twitter: @hackvc
+- **Fit Score:** 79/100
+- **Notes:** Strong technical diligence, security focus
+
+### 34. Alliance DAO
+- **Focus:** Web3 accelerator + investment, DeFi, consumer apps
+- **Ticket Size:** $250K - $1M (Pre-seed to Seed)
+- **Notable Investments:** Alliance batch companies (Web3 YC equivalent)
+- **Investment Thesis:** Accelerator model, founder-focused support
+- **Contact:**
+  - Website: https://alliance.xyz
+  - Twitter: @alliancedao
+- **Fit Score:** 81/100
+- **Notes:** 10-week accelerator program, strong mentor network
+
+### 35. LongHash Ventures
+- **Focus:** Asian market, Web3 infrastructure, DeFi
+- **Ticket Size:** $500K - $5M (Seed to Series A)
+- **Notable Investments:** Multiple APAC crypto projects
+- **Investment Thesis:** Asia-Pacific market access, regulatory navigation
+- **Contact:**
+  - Website: https://longhash.vc
+  - Twitter: @longhashvc
+- **Fit Score:** 73/100
+- **Notes:** Strong in Asian markets, good for APAC expansion
 
 ---
 
